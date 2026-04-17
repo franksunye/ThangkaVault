@@ -39,9 +39,29 @@ Quartz writes the generated site to `public/`.
 ## Repository Structure
 
 - `content/`: Markdown content source
+- `content/static`: symlink to `../quartz/static` so Obsidian can preview `/static/...` assets when the vault is opened at `content/`
 - `quartz/`: Quartz framework source
 - `quartz/static/images/`: source images copied into the generated site as `/static/images/...`
 - `.codex/skills/`: repository-local authoring skill for maintaining the content vault
+
+## Obsidian Workflow
+
+For smooth local writing and browsing in Obsidian, open:
+
+- `/Users/yesun/OB/ThangkaVault/content`
+
+Do not open the repository root in Obsidian unless you explicitly want to browse build and framework files. The root now contains Quartz config, package metadata, and generated-site tooling that are not part of the knowledge vault itself.
+
+The `content/static` symlink exists only to improve local authoring:
+
+- Markdown entries reference images as `/static/images/...` for Quartz
+- Obsidian opened at `content/` can still preview those images through the symlink
+- The published site still serves assets from `quartz/static/`
+
+Recommended editor split:
+
+- `Obsidian`: open `content/` for writing, linking, and reading notes
+- `VS Code / Codex`: open the repository root for Quartz config, deployment, and bulk maintenance
 
 ## Cloudflare Pages
 
@@ -62,3 +82,4 @@ If you do not need git-based timestamps, `npx quartz build` is enough. The `git 
 - Folder index pages act as category landing pages
 - Real image sources are tracked in [content/image-sources.md](/Users/yesun/OB/ThangkaVault/content/image-sources.md:1)
 - Source images should live under `quartz/static/images/`, not `public/`
+- Do not move images into `content/`; keep `content/` as the authoring vault and `quartz/static/` as the publishable asset layer
