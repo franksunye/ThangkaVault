@@ -41,18 +41,27 @@ cssclasses:
 
 先用三篇最短路径建立观看框架，再进入更复杂的主题和图像。
 
-<div class="feature-grid">
-  <a class="feature-card" href="/基础知识/what-is-thangka">
-    <h3>什么是唐卡？</h3>
-    <p>先建立最基本的理解：它不是普通装饰画，而是一套有结构的图像语言。</p>
+<div class="feature-path">
+  <a class="feature-step" href="/基础知识/what-is-thangka">
+    <div class="feature-step-index">01</div>
+    <div class="feature-step-body">
+      <div class="feature-step-title">什么是唐卡？</div>
+      <p>先建立最基本的理解：它不是普通装饰画，而是一套有结构的图像语言。</p>
+    </div>
   </a>
-  <a class="feature-card" href="/基础知识/how-to-read-a-thangka">
-    <h3>如何看懂一幅唐卡？</h3>
-    <p>先认出主尊，再看动作、颜色和周围符号，复杂感会立刻下降。</p>
+  <a class="feature-step" href="/基础知识/how-to-read-a-thangka">
+    <div class="feature-step-index">02</div>
+    <div class="feature-step-body">
+      <div class="feature-step-title">如何看懂一幅唐卡？</div>
+      <p>先认出主尊，再看动作、颜色和周围符号，复杂感会立刻下降。</p>
+    </div>
   </a>
-  <a class="feature-card" href="/曼荼罗/what-is-mandala">
-    <h3>什么是曼荼罗？</h3>
-    <p>从中心、边界和对称结构入手，开始理解唐卡里的空间秩序。</p>
+  <a class="feature-step" href="/曼荼罗/what-is-mandala">
+    <div class="feature-step-index">03</div>
+    <div class="feature-step-body">
+      <div class="feature-step-title">什么是曼荼罗？</div>
+      <p>从中心、边界和对称结构入手，开始理解唐卡里的空间秩序。</p>
+    </div>
   </a>
 </div>
 
