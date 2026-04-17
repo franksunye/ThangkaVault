@@ -1,7 +1,12 @@
+---
+title: "唐卡颜色的象征意义"
+description: "唐卡里的颜色通常不是装饰性的选择，而是在帮助你更快识别人物气质和象征方向。"
+---
+
 # 唐卡颜色的象征意义
 # Color Symbolism in Thangka
 
-![颜色示例](/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg)
+![颜色示例](/static/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg)
 
 > **一句话理解：**
 > 唐卡里的颜色通常不是装饰性的选择，而是在帮助你更快识别人物气质和象征方向。

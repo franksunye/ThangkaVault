@@ -1,7 +1,12 @@
+---
+title: "菩萨"
+description: "这一部分收录唐卡中的菩萨主题，重点帮助读者理解慈悲、智慧与救度众生的图像表达。"
+---
+
 # 菩萨
 # Bodhisattvas
 
-![菩萨分类封面](/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg)
+![菩萨分类封面](/static/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg)
 
 > **一句话理解：**
 > 这一部分收录唐卡中的菩萨主题，重点帮助读者理解慈悲、智慧与救度众生的图像表达。

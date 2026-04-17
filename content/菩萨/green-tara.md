@@ -1,7 +1,12 @@
+---
+title: "绿度母"
+description: "绿度母象征迅速行动的慈悲，像是一位随时准备回应众生困难的守护者。"
+---
+
 # 绿度母
 # Green Tara
 
-![绿度母唐卡](/images/bodhisattva/green-tara-photo-dharma-commons.jpg)
+![绿度母唐卡](/static/images/bodhisattva/green-tara-photo-dharma-commons.jpg)
 
 > **一句话理解：**
 > 绿度母象征迅速行动的慈悲，像是一位随时准备回应众生困难的守护者。

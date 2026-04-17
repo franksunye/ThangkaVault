@@ -1,7 +1,12 @@
+---
+title: "观音菩萨（千手观音）"
+description: "这是“看见众生痛苦并伸出援手”的形象，千手象征无数的帮助方式。"
+---
+
 # 观音菩萨（千手观音）
 # Avalokiteshvara · Thousand-Armed Bodhisattva
 
-![观音菩萨唐卡](/images/bodhisattva/thousand-armed-chenresi-commons.jpg)
+![观音菩萨唐卡](/static/images/bodhisattva/thousand-armed-chenresi-commons.jpg)
 
 > **一句话理解：**
 > 这是“看见众生痛苦并伸出援手”的形象，千手象征无数的帮助方式。

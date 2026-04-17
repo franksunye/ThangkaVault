@@ -1,7 +1,12 @@
+---
+title: "符号"
+description: "这一部分帮助读者理解唐卡里的手印、颜色、莲花等高频视觉元素。"
+---
+
 # 符号
 # Symbols
 
-![符号分类封面](/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg)
+![符号分类封面](/static/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg)
 
 > **一句话理解：**
 > 这一部分帮助读者理解唐卡里的手印、颜色、莲花等高频视觉元素。

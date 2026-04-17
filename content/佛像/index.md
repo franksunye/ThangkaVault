@@ -1,7 +1,12 @@
+---
+title: "佛像"
+description: "这一部分收录唐卡中的佛像主题，重点帮助读者识别常见主尊和他们的核心象征。"
+---
+
 # 佛像
 # Buddha Images
 
-![佛像分类封面](/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg)
+![佛像分类封面](/static/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg)
 
 > **一句话理解：**
 > 这一部分收录唐卡中的佛像主题，重点帮助读者识别常见主尊和他们的核心象征。

@@ -1,7 +1,12 @@
+---
+title: "释迦牟尼佛（触地印）"
+description: "这是佛陀成道的瞬间，右手触地，象征“以大地为证”。"
+---
+
 # 释迦牟尼佛（触地印）
 # Shakyamuni Buddha · Earth-Touching Mudra
 
-![释迦牟尼佛唐卡](/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg)
+![释迦牟尼佛唐卡](/static/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg)
 
 > **一句话理解：**
 > 这是佛陀成道的瞬间，右手触地，象征“以大地为证”。

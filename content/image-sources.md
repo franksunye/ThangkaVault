@@ -1,10 +1,15 @@
+---
+title: "图片来源登记"
+description: ""
+---
+
 # 图片来源登记
 
 这份清单记录 `ThangkaVault` 当前已入库的第一批真实图片来源、授权状态和本地路径。
 
 ## thangka-with-buddha-met-37821.jpg
 
-- 本地路径：`/images/buddha/thangka-with-buddha-met-37821.jpg`
+- 本地路径：`/static/images/buddha/thangka-with-buddha-met-37821.jpg`
 - 对应页面：[[什么是唐卡？]]
 - 标题：Thangka with Buddha
 - 来源机构：The Metropolitan Museum of Art
@@ -14,7 +19,7 @@
 
 ## shakyamuni-lord-of-the-munis-met-75274.jpg
 
-- 本地路径：`/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg`
+- 本地路径：`/static/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg`
 - 对应页面：[[释迦牟尼佛（触地印）]]
 - 标题：Buddha Shakyamuni as "Lord of the Munis"
 - 来源机构：The Metropolitan Museum of Art
@@ -24,7 +29,7 @@
 
 ## thousand-armed-chenresi-commons.jpg
 
-- 本地路径：`/images/bodhisattva/thousand-armed-chenresi-commons.jpg`
+- 本地路径：`/static/images/bodhisattva/thousand-armed-chenresi-commons.jpg`
 - 对应页面：[[观音菩萨（千手观音）]]
 - 标题：Thousand-Armed Chenresi, a Cosmic Form of the Bodhisattva Avalokiteshvara
 - 来源机构：Wikimedia Commons
@@ -34,7 +39,7 @@
 
 ## green-tara-photo-dharma-commons.jpg
 
-- 本地路径：`/images/bodhisattva/green-tara-photo-dharma-commons.jpg`
+- 本地路径：`/static/images/bodhisattva/green-tara-photo-dharma-commons.jpg`
 - 对应页面：[[绿度母]]
 - 标题：037 Green Tara Thangka (34342913234)
 - 来源机构：Wikimedia Commons
@@ -44,7 +49,7 @@
 
 ## medicine-buddha-artic-commons.jpg
 
-- 本地路径：`/images/buddha/medicine-buddha-artic-commons.jpg`
+- 本地路径：`/static/images/buddha/medicine-buddha-artic-commons.jpg`
 - 对应页面：[[药师佛]]
 - 标题：Painted Banner (Thangka) with the Medicine Buddha (Bhaishajyaguru)
 - 来源机构：Wikimedia Commons / Art Institute of Chicago
@@ -54,7 +59,7 @@
 
 ## hevajra-mandala-met-37803.jpg
 
-- 本地路径：`/images/mandala/hevajra-mandala-met-37803.jpg`
+- 本地路径：`/static/images/mandala/hevajra-mandala-met-37803.jpg`
 - 对应页面：[[什么是曼荼罗？]]
 - 标题：Hevajra Mandala
 - 来源机构：The Metropolitan Museum of Art
@@ -64,7 +69,7 @@
 
 ## white-tara-and-green-tara-met-60053029.jpg
 
-- 本地路径：`/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg`
+- 本地路径：`/static/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg`
 - 对应页面：[[如何看懂一幅唐卡？]]、[[菩萨]]、[[符号]]、[[唐卡颜色的象征意义]]、[[莲花在唐卡中象征什么？]]
 - 标题：White Tara and Green Tara
 - 来源机构：The Metropolitan Museum of Art
@@ -74,7 +79,7 @@
 
 ## mahakala-met-37808.jpg
 
-- 本地路径：`/images/protector/mahakala-met-37808.jpg`
+- 本地路径：`/static/images/protector/mahakala-met-37808.jpg`
 - 对应页面：待未来护法条目使用
 - 标题：The Wrathful Protector Mahakala, Tantric Protective Form of Avalokiteshvara
 - 来源机构：The Metropolitan Museum of Art

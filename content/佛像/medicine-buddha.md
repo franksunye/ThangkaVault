@@ -1,7 +1,12 @@
+---
+title: "药师佛"
+description: "药师佛是与疗愈、安定和解除痛苦相关的佛像形象，常以深蓝色身相出现。"
+---
+
 # 药师佛
 # Medicine Buddha
 
-![药师佛唐卡](/images/buddha/medicine-buddha-artic-commons.jpg)
+![药师佛唐卡](/static/images/buddha/medicine-buddha-artic-commons.jpg)
 
 > **一句话理解：**
 > 药师佛是与疗愈、安定和解除痛苦相关的佛像形象，常以深蓝色身相出现。

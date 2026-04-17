@@ -1,7 +1,12 @@
+---
+title: "什么是唐卡？"
+description: "唐卡是一种可以卷起保存的宗教绘画，用来帮助修行者理解、观想和记忆佛教世界。"
+---
+
 # 什么是唐卡？
 # What is a Thangka?
 
-![唐卡示例：藏地佛像唐卡](/images/buddha/thangka-with-buddha-met-37821.jpg)
+![唐卡示例：藏地佛像唐卡](/static/images/buddha/thangka-with-buddha-met-37821.jpg)
 
 > **一句话理解：**
 > 唐卡是一种可以卷起保存的宗教绘画，用来帮助修行者理解、观想和记忆佛教世界。

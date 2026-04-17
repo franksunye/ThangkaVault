@@ -1,7 +1,12 @@
+---
+title: "曼荼罗"
+description: "这一部分收录唐卡中的曼荼罗主题，重点帮助读者理解中心、边界和对称结构。"
+---
+
 # 曼荼罗
 # Mandala
 
-![曼荼罗分类封面](/images/mandala/hevajra-mandala-met-37803.jpg)
+![曼荼罗分类封面](/static/images/mandala/hevajra-mandala-met-37803.jpg)
 
 > **一句话理解：**
 > 这一部分收录唐卡中的曼荼罗主题，重点帮助读者理解中心、边界和对称结构。

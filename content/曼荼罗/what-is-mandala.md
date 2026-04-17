@@ -1,7 +1,12 @@
+---
+title: "什么是曼荼罗？"
+description: "曼荼罗是一种以中心和对称结构组织起来的宗教图像，用来呈现一个有秩序的神圣世界。"
+---
+
 # 什么是曼荼罗？
 # What is a Mandala?
 
-![曼荼罗示例](/images/mandala/hevajra-mandala-met-37803.jpg)
+![曼荼罗示例](/static/images/mandala/hevajra-mandala-met-37803.jpg)
 
 > **一句话理解：**
 > 曼荼罗是一种以中心和对称结构组织起来的宗教图像，用来呈现一个有秩序的神圣世界。

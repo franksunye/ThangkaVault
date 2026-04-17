@@ -1,7 +1,12 @@
+---
+title: "唐卡中的手印是什么？"
+description: "手印是人物用手部动作传达意义的方式，常常比文字更快地告诉你这尊主尊在表达什么。"
+---
+
 # 唐卡中的手印是什么？
 # What Is a Mudra in Thangka?
 
-![手印示例](/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg)
+![手印示例](/static/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg)
 
 > **一句话理解：**
 > 手印是人物用手部动作传达意义的方式，常常比文字更快地告诉你这尊主尊在表达什么。

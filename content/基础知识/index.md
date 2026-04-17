@@ -1,7 +1,12 @@
+---
+title: "基础知识"
+description: "这一部分帮助第一次接触唐卡的读者，先建立最基本的观看方法和理解框架。"
+---
+
 # 基础知识
 # Foundations
 
-![基础知识封面](/images/buddha/thangka-with-buddha-met-37821.jpg)
+![基础知识封面](/static/images/buddha/thangka-with-buddha-met-37821.jpg)
 
 > **一句话理解：**
 > 这一部分帮助第一次接触唐卡的读者，先建立最基本的观看方法和理解框架。

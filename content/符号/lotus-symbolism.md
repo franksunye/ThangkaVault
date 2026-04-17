@@ -1,7 +1,12 @@
+---
+title: "莲花在唐卡中象征什么？"
+description: "莲花是唐卡中最常见的符号之一，常用来表达纯净、托举和神圣性。"
+---
+
 # 莲花在唐卡中象征什么？
 # What Does the Lotus Symbolize in Thangka?
 
-![莲花示例](/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg)
+![莲花示例](/static/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg)
 
 > **一句话理解：**
 > 莲花是唐卡中最常见的符号之一，常用来表达纯净、托举和神圣性。
