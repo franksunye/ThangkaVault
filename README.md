@@ -2,6 +2,8 @@
 
 ThangkaVault is a content-first Thangka knowledge site built from an Obsidian-style Markdown vault and published with Quartz.
 
+Project snapshot and priorities live in [PROJECT.md](/Users/yesun/OB/ThangkaVault/PROJECT.md:1).
+
 ## Stack
 
 - Content authoring: `Obsidian` + `Markdown`
