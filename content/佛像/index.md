@@ -20,15 +20,15 @@ cssclasses:
   <a class="entry-card" href="/佛像/shakyamuni-buddha-earth-touching">
     <img src="/static/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg" alt="释迦牟尼佛触地印唐卡" />
     <div>
-      <h3>释迦牟尼佛（触地印）</h3>
-      <p>从一个非常明确的动作开始，理解“觉悟的瞬间”如何被画出来。</p>
+      <div class="card-title">释迦牟尼佛（触地印）</div>
+      <div class="card-copy">从一个非常明确的动作开始，理解“觉悟的瞬间”如何被画出来。</div>
     </div>
   </a>
   <a class="entry-card" href="/佛像/medicine-buddha">
     <img src="/static/images/buddha/medicine-buddha-artic-commons.jpg" alt="药师佛唐卡" />
     <div>
-      <h3>药师佛</h3>
-      <p>深蓝色身相非常醒目，适合帮助初学者开始理解颜色的意义。</p>
+      <div class="card-title">药师佛</div>
+      <div class="card-copy">深蓝色身相非常醒目，适合帮助初学者开始理解颜色的意义。</div>
     </div>
   </a>
 </div>

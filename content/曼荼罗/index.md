@@ -20,8 +20,8 @@ cssclasses:
   <a class="entry-card" href="/曼荼罗/what-is-mandala">
     <img src="/static/images/mandala/hevajra-mandala-met-37803.jpg" alt="曼荼罗唐卡" />
     <div>
-      <h3>什么是曼荼罗？</h3>
-      <p>从结构和空间入手，理解为什么唐卡不只是“画了一个人物”。</p>
+      <div class="card-title">什么是曼荼罗？</div>
+      <div class="card-copy">从结构和空间入手，理解为什么唐卡不只是“画了一个人物”。</div>
     </div>
   </a>
 </div>

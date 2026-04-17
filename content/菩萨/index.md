@@ -20,15 +20,15 @@ cssclasses:
   <a class="entry-card" href="/菩萨/avalokiteshvara-bodhisattva">
     <img src="/static/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg" alt="观音菩萨相关唐卡形象" />
     <div>
-      <h3>观音菩萨（千手观音）</h3>
-      <p>从“慈悲如何被画出来”开始，理解菩萨图像的层次和变化。</p>
+      <div class="card-title">观音菩萨（千手观音）</div>
+      <div class="card-copy">从“慈悲如何被画出来”开始，理解菩萨图像的层次和变化。</div>
     </div>
   </a>
   <a class="entry-card" href="/菩萨/green-tara">
     <img src="/static/images/bodhisattva/green-tara-photo-dharma-commons.jpg" alt="绿度母唐卡" />
     <div>
-      <h3>绿度母</h3>
-      <p>绿色和前伸的姿态让她充满行动感，也最容易让人留下记忆。</p>
+      <div class="card-title">绿度母</div>
+      <div class="card-copy">绿色和前伸的姿态让她充满行动感，也最容易让人留下记忆。</div>
     </div>
   </a>
 </div>

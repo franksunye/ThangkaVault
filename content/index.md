@@ -68,43 +68,43 @@ cssclasses:
   <a class="entry-card" href="/佛像/shakyamuni-buddha-earth-touching">
     <img src="/static/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg" alt="释迦牟尼佛触地印唐卡" />
     <div>
-      <h3>释迦牟尼佛（触地印）</h3>
-      <p>触地印是很多人第一次真正看懂唐卡动作语言的入口。</p>
+      <div class="card-title">释迦牟尼佛（触地印）</div>
+      <div class="card-copy">触地印是很多人第一次真正看懂唐卡动作语言的入口。</div>
     </div>
   </a>
   <a class="entry-card" href="/菩萨/avalokiteshvara-bodhisattva">
     <img src="/static/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg" alt="观音菩萨相关唐卡形象" />
     <div>
-      <h3>观音菩萨（千手观音）</h3>
-      <p>从“慈悲如何被画出来”开始，理解菩萨图像的变化和层次。</p>
+      <div class="card-title">观音菩萨（千手观音）</div>
+      <div class="card-copy">从“慈悲如何被画出来”开始，理解菩萨图像的变化和层次。</div>
     </div>
   </a>
   <a class="entry-card" href="/菩萨/green-tara">
     <img src="/static/images/bodhisattva/green-tara-photo-dharma-commons.jpg" alt="绿度母唐卡" />
     <div>
-      <h3>绿度母</h3>
-      <p>绿色、前伸的姿态和行动感，让她成为最适合入门的菩萨之一。</p>
+      <div class="card-title">绿度母</div>
+      <div class="card-copy">绿色、前伸的姿态和行动感，让她成为最适合入门的菩萨之一。</div>
     </div>
   </a>
   <a class="entry-card" href="/佛像/medicine-buddha">
     <img src="/static/images/buddha/medicine-buddha-artic-commons.jpg" alt="药师佛唐卡" />
     <div>
-      <h3>药师佛</h3>
-      <p>深蓝色身相非常醒目，也最能帮助初学者意识到颜色的意义。</p>
+      <div class="card-title">药师佛</div>
+      <div class="card-copy">深蓝色身相非常醒目，也最能帮助初学者意识到颜色的意义。</div>
     </div>
   </a>
   <a class="entry-card" href="/符号/what-is-a-mudra">
     <img src="/static/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg" alt="手印示例唐卡" />
     <div>
-      <h3>唐卡中的手印是什么？</h3>
-      <p>手印是最快让你读出“这位主尊正在做什么”的视觉入口。</p>
+      <div class="card-title">唐卡中的手印是什么？</div>
+      <div class="card-copy">手印是最快让你读出“这位主尊正在做什么”的视觉入口。</div>
     </div>
   </a>
   <a class="entry-card" href="/曼荼罗/what-is-mandala">
     <img src="/static/images/mandala/hevajra-mandala-met-37803.jpg" alt="曼荼罗唐卡" />
     <div>
-      <h3>什么是曼荼罗？</h3>
-      <p>当你开始看结构而不只是看人物，唐卡会立刻变得更有秩序。</p>
+      <div class="card-title">什么是曼荼罗？</div>
+      <div class="card-copy">当你开始看结构而不只是看人物，唐卡会立刻变得更有秩序。</div>
     </div>
   </a>
 </div>

@@ -20,22 +20,22 @@ cssclasses:
   <a class="entry-card" href="/符号/what-is-a-mudra">
     <img src="/static/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg" alt="手印示例唐卡" />
     <div>
-      <h3>唐卡中的手印是什么？</h3>
-      <p>动作语言是最直接的阅读入口，先抓手印会让很多人物立刻变清楚。</p>
+      <div class="card-title">唐卡中的手印是什么？</div>
+      <div class="card-copy">动作语言是最直接的阅读入口，先抓手印会让很多人物立刻变清楚。</div>
     </div>
   </a>
   <a class="entry-card" href="/符号/color-symbolism-in-thangka">
     <img src="/static/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg" alt="颜色象征示例唐卡" />
     <div>
-      <h3>唐卡颜色的象征意义</h3>
-      <p>颜色不只是装饰，它往往和身份、气质与含义一起出现。</p>
+      <div class="card-title">唐卡颜色的象征意义</div>
+      <div class="card-copy">颜色不只是装饰，它往往和身份、气质与含义一起出现。</div>
     </div>
   </a>
   <a class="entry-card" href="/符号/lotus-symbolism">
     <img src="/static/images/bodhisattva/green-tara-photo-dharma-commons.jpg" alt="莲花象征示例唐卡" />
     <div>
-      <h3>莲花在唐卡中象征什么？</h3>
-      <p>从一个高频器物切入，开始理解“为什么是这样画”。</p>
+      <div class="card-title">莲花在唐卡中象征什么？</div>
+      <div class="card-copy">从一个高频器物切入，开始理解“为什么是这样画”。</div>
     </div>
   </a>
 </div>
