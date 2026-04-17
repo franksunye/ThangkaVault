@@ -1,7 +1,7 @@
 # 什么是曼荼罗？
 # What is a Mandala?
 
-![曼荼罗示例](图片URL)
+![曼荼罗示例](/images/mandala/hevajra-mandala-met-37803.jpg)
 
 > **一句话理解：**
 > 曼荼罗是一种以中心和对称结构组织起来的宗教图像，用来呈现一个有秩序的神圣世界。
@@ -60,5 +60,6 @@
 
 ## 来源说明
 
-图片来源：待补充
+图片来源：The Metropolitan Museum of Art，《Hevajra Mandala》，Object ID 37803（Public Domain）
+来源链接：https://www.metmuseum.org/art/collection/search/37803
 内容整理：唐卡知库（ThangkaVault）

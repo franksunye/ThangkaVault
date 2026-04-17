@@ -1,7 +1,7 @@
 # 观音菩萨（千手观音）
 # Avalokiteshvara · Thousand-Armed Bodhisattva
 
-![观音菩萨唐卡](图片URL)
+![观音菩萨唐卡](/images/bodhisattva/thousand-armed-chenresi-commons.jpg)
 
 > **一句话理解：**
 > 这是“看见众生痛苦并伸出援手”的形象，千手象征无数的帮助方式。
@@ -76,5 +76,6 @@
 
 ## 来源说明
 
-图片来源：待补充
+图片来源：Wikimedia Commons，《Thousand-Armed Chenresi, a Cosmic Form of the Bodhisattva Avalokiteshvara》（Public Domain）
+来源链接：https://commons.wikimedia.org/wiki/File:Thousand-Armed_Chenresi,_a_Cosmic_Form_of_the_Bodhisattva_Avalokiteshvara.jpg
 内容整理：唐卡知库（ThangkaVault）

@@ -1,7 +1,7 @@
 # 绿度母
 # Green Tara
 
-![绿度母唐卡](图片URL)
+![绿度母唐卡](/images/bodhisattva/green-tara-photo-dharma-commons.jpg)
 
 > **一句话理解：**
 > 绿度母象征迅速行动的慈悲，像是一位随时准备回应众生困难的守护者。
@@ -61,5 +61,6 @@
 
 ## 来源说明
 
-图片来源：待补充
+图片来源：Wikimedia Commons / Photo Dharma，《037 Green Tara Thangka (34342913234)》（CC BY 2.0）
+来源链接：https://commons.wikimedia.org/wiki/File:037_Green_Tara_Thangka_(34342913234).jpg
 内容整理：唐卡知库（ThangkaVault）

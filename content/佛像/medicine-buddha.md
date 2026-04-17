@@ -1,7 +1,7 @@
 # 药师佛
 # Medicine Buddha
 
-![药师佛唐卡](图片URL)
+![药师佛唐卡](/images/buddha/medicine-buddha-artic-commons.jpg)
 
 > **一句话理解：**
 > 药师佛是与疗愈、安定和解除痛苦相关的佛像形象，常以深蓝色身相出现。
@@ -61,5 +61,6 @@
 
 ## 来源说明
 
-图片来源：待补充
+图片来源：Wikimedia Commons / Art Institute of Chicago，《Painted Banner (Thangka) with the Medicine Buddha (Bhaishajyaguru)》（Public Domain / CC0 digital reproduction）
+来源链接：https://commons.wikimedia.org/wiki/File:Anonymous_-_Painted_Banner_(Thangka)_with_the_Medicine_Buddha_(Bhaishajyaguru)_-_1996.29_-_Art_Institute_of_Chicago.jpg
 内容整理：唐卡知库（ThangkaVault）
