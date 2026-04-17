@@ -7,9 +7,20 @@ cssclasses:
 
 <section class="hero-card">
   <div class="hero-copy">
-    <p class="eyebrow">ThangkaVault</p>
+    <p class="eyebrow">Digital Exhibition Archive</p>
+    <p class="hero-kicker">ThangkaVault</p>
     <h1>看懂唐卡，而不只是看见它</h1>
     <p class="lead">一个以高质量唐卡图像和面向初学者的结构化解读为核心的内容型知识站点。</p>
+    <div class="hero-notes">
+      <div>
+        <span>展览线索</span>
+        <strong>主尊、手印、色彩、结构</strong>
+      </div>
+      <div>
+        <span>观看方式</span>
+        <strong>从图像进入，再进入术语与象征</strong>
+      </div>
+    </div>
     <div class="hero-actions">
       <a class="product-button primary" href="/基础知识/what-is-thangka">从这里开始</a>
       <a class="product-button secondary" href="/佛像/">浏览主题</a>
@@ -17,10 +28,18 @@ cssclasses:
   </div>
   <div class="hero-visual">
     <img src="/static/images/buddha/thangka-with-buddha-met-37821.jpg" alt="唐卡知库首页视觉：佛像唐卡" />
+    <div class="hero-caption">
+      <span>馆藏导览</span>
+      <strong>先看人物与动作，再看空间与秩序</strong>
+    </div>
   </div>
 </section>
 
+<section class="landing-section stage-intro">
+
 ## 从这里开始
+
+先用三篇最短路径建立观看框架，再进入更复杂的主题和图像。
 
 <div class="feature-grid">
   <a class="feature-card" href="/基础知识/what-is-thangka">
@@ -37,7 +56,13 @@ cssclasses:
   </a>
 </div>
 
+</section>
+
+<section class="landing-section stage-themes">
+
 ## 浏览主题
+
+按观看对象切换展厅，不同主题对应不同的识别方式。
 
 <div class="theme-grid">
   <a class="theme-card" href="/基础知识/">
@@ -62,7 +87,13 @@ cssclasses:
   </a>
 </div>
 
+</section>
+
+<section class="landing-section stage-gallery">
+
 ## 精选图像与条目
+
+这里不是条目列表，而是一组适合直接进入观看状态的代表性图像入口。
 
 <div class="entry-grid">
   <a class="entry-card" href="/佛像/shakyamuni-buddha-earth-touching">
@@ -108,6 +139,8 @@ cssclasses:
     </div>
   </a>
 </div>
+
+</section>
 
 ## 为什么这个站值得继续看
 
