@@ -1,7 +1,7 @@
 # 菩萨
 # Bodhisattvas
 
-![菩萨分类封面](图片URL)
+![菩萨分类封面](/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg)
 
 > **一句话理解：**
 > 这一部分收录唐卡中的菩萨主题，重点帮助读者理解慈悲、智慧与救度众生的图像表达。
@@ -43,5 +43,6 @@
 
 ## 来源说明
 
-图片来源：待补充
+图片来源：The Metropolitan Museum of Art，《White Tara and Green Tara》，Object ID 60053029（Public Domain）
+来源链接：https://www.metmuseum.org/art/collection/search/60053029
 内容整理：唐卡知库（ThangkaVault）

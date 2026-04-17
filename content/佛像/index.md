@@ -1,7 +1,7 @@
 # 佛像
 # Buddha Images
 
-![佛像分类封面](图片URL)
+![佛像分类封面](/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg)
 
 > **一句话理解：**
 > 这一部分收录唐卡中的佛像主题，重点帮助读者识别常见主尊和他们的核心象征。
@@ -43,5 +43,6 @@
 
 ## 来源说明
 
-图片来源：待补充
+图片来源：The Metropolitan Museum of Art，《Buddha Shakyamuni as "Lord of the Munis"》，Object ID 75274（Public Domain）
+来源链接：https://www.metmuseum.org/art/collection/search/75274
 内容整理：唐卡知库（ThangkaVault）

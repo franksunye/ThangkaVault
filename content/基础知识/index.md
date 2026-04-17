@@ -1,7 +1,7 @@
 # 基础知识
 # Foundations
 
-![基础知识封面](图片URL)
+![基础知识封面](/images/buddha/thangka-with-buddha-met-37821.jpg)
 
 > **一句话理解：**
 > 这一部分帮助第一次接触唐卡的读者，先建立最基本的观看方法和理解框架。
@@ -46,5 +46,6 @@
 
 ## 来源说明
 
-图片来源：待补充
+图片来源：The Metropolitan Museum of Art，《Thangka with Buddha》，Object ID 37821（Public Domain）
+来源链接：https://www.metmuseum.org/art/collection/search/37821
 内容整理：唐卡知库（ThangkaVault）

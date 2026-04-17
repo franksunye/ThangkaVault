@@ -1,7 +1,7 @@
 # 唐卡颜色的象征意义
 # Color Symbolism in Thangka
 
-![颜色示例](图片URL)
+![颜色示例](/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg)
 
 > **一句话理解：**
 > 唐卡里的颜色通常不是装饰性的选择，而是在帮助你更快识别人物气质和象征方向。
@@ -61,5 +61,6 @@
 
 ## 来源说明
 
-图片来源：待补充
+图片来源：The Metropolitan Museum of Art，《White Tara and Green Tara》，Object ID 60053029（Public Domain）
+来源链接：https://www.metmuseum.org/art/collection/search/60053029
 内容整理：唐卡知库（ThangkaVault）

@@ -1,7 +1,7 @@
 # 如何看懂一幅唐卡？
 # How to Read a Thangka
 
-![唐卡结构示例](图片URL)
+![唐卡结构示例](/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg)
 
 > **一句话理解：**
 > 看懂唐卡，不是一次看完所有细节，而是先认出主尊，再理解动作、颜色和周围符号。
@@ -58,5 +58,6 @@
 
 ## 来源说明
 
-图片来源：待补充
+图片来源：The Metropolitan Museum of Art，《White Tara and Green Tara》，Object ID 60053029（Public Domain）
+来源链接：https://www.metmuseum.org/art/collection/search/60053029
 内容整理：唐卡知库（ThangkaVault）

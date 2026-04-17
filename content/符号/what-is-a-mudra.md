@@ -1,7 +1,7 @@
 # 唐卡中的手印是什么？
 # What Is a Mudra in Thangka?
 
-![手印示例](图片URL)
+![手印示例](/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg)
 
 > **一句话理解：**
 > 手印是人物用手部动作传达意义的方式，常常比文字更快地告诉你这尊主尊在表达什么。
@@ -60,5 +60,6 @@
 
 ## 来源说明
 
-图片来源：待补充
+图片来源：The Metropolitan Museum of Art，《Buddha Shakyamuni as "Lord of the Munis"》，Object ID 75274（Public Domain）
+来源链接：https://www.metmuseum.org/art/collection/search/75274
 内容整理：唐卡知库（ThangkaVault）

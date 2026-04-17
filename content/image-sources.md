@@ -61,3 +61,23 @@
 - 来源链接：https://www.metmuseum.org/art/collection/search/37803
 - 授权状态：Public Domain
 - 说明：适合作为曼荼罗入门示例图
+
+## white-tara-and-green-tara-met-60053029.jpg
+
+- 本地路径：`/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg`
+- 对应页面：[[如何看懂一幅唐卡？]]、[[菩萨]]、[[符号]]、[[唐卡颜色的象征意义]]、[[莲花在唐卡中象征什么？]]
+- 标题：White Tara and Green Tara
+- 来源机构：The Metropolitan Museum of Art
+- 来源链接：https://www.metmuseum.org/art/collection/search/60053029
+- 授权状态：Public Domain
+- 说明：同时适合作为颜色、莲座和菩萨主题的示例图
+
+## mahakala-met-37808.jpg
+
+- 本地路径：`/images/protector/mahakala-met-37808.jpg`
+- 对应页面：待未来护法条目使用
+- 标题：The Wrathful Protector Mahakala, Tantric Protective Form of Avalokiteshvara
+- 来源机构：The Metropolitan Museum of Art
+- 来源链接：https://www.metmuseum.org/art/collection/search/37808
+- 授权状态：Public Domain
+- 说明：已入库，后续可用于护法或忿怒相相关内容

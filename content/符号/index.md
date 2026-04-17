@@ -1,7 +1,7 @@
 # 符号
 # Symbols
 
-![符号分类封面](图片URL)
+![符号分类封面](/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg)
 
 > **一句话理解：**
 > 这一部分帮助读者理解唐卡里的手印、颜色、莲花等高频视觉元素。
@@ -46,5 +46,6 @@
 
 ## 来源说明
 
-图片来源：待补充
+图片来源：The Metropolitan Museum of Art，《White Tara and Green Tara》，Object ID 60053029（Public Domain）
+来源链接：https://www.metmuseum.org/art/collection/search/60053029
 内容整理：唐卡知库（ThangkaVault）

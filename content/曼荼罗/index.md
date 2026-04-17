@@ -1,7 +1,7 @@
 # 曼荼罗
 # Mandala
 
-![曼荼罗分类封面](图片URL)
+![曼荼罗分类封面](/images/mandala/hevajra-mandala-met-37803.jpg)
 
 > **一句话理解：**
 > 这一部分收录唐卡中的曼荼罗主题，重点帮助读者理解中心、边界和对称结构。
@@ -42,5 +42,6 @@
 
 ## 来源说明
 
-图片来源：待补充
+图片来源：The Metropolitan Museum of Art，《Hevajra Mandala》，Object ID 37803（Public Domain）
+来源链接：https://www.metmuseum.org/art/collection/search/37803
 内容整理：唐卡知库（ThangkaVault）
