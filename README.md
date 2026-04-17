@@ -54,7 +54,7 @@ Create a Pages project connected to this repository and use:
 
 If you do not need git-based timestamps, `npx quartz build` is enough. The `git fetch --unshallow &&` prefix follows Quartz's Cloudflare Pages guidance.
 
-Before production launch, update `baseUrl` in [quartz.config.ts](/Users/yesun/OB/ThangkaVault/quartz.config.ts:1) to your actual `*.pages.dev` or custom domain.
+`baseUrl` is set to the production domain `thangka.visutry.com`. If the site domain changes later, update it in [quartz.config.ts](/Users/yesun/OB/ThangkaVault/quartz.config.ts:1) before the next deploy.
 
 ## Content Notes
 

@@ -14,8 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "zh-CN",
-    // Update this to the final Pages domain or custom domain before production launch.
-    baseUrl: "thangkavault.pages.dev",
+    baseUrl: "thangka.visutry.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
