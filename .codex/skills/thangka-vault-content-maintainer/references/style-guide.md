@@ -4,6 +4,8 @@
 
 This guide covers Markdown content under `content/` for the ThangkaVault knowledge vault.
 
+Primary rule: treat `content/` as the content layer first, not the page-layout layer.
+
 ## Folder Mapping
 
 - `content/佛像`: Buddhas and related Buddha-image entries
@@ -11,6 +13,32 @@ This guide covers Markdown content under `content/` for the ThangkaVault knowled
 - `content/曼荼罗`: Mandala or structure-centered entries
 - `content/护法`: Protector deities and wrathful figures
 - `content/基础知识`: Introductory or conceptual guides
+
+## Content vs Presentation Boundary
+
+By default, Markdown notes should stay clean enough to read naturally inside Obsidian.
+
+Good:
+
+- headings
+- paragraphs
+- lists
+- tables
+- blockquotes
+- image embeds
+- frontmatter
+
+Avoid in ordinary notes:
+
+- nested page-layout wrappers
+- repeated `div` or `section` structures used only for card layout
+- CSS hook classes whose only purpose is frontend presentation
+
+Exception:
+
+- homepage and rare special landing pages may temporarily carry extra structure during the POC
+- this should remain explicit and limited
+- do not copy those patterns into normal knowledge entries
 
 ## Filename Rule
 
@@ -84,6 +112,7 @@ This guide covers Markdown content under `content/` for the ThangkaVault knowled
 - Bullets: concrete and visual
 - Claims: conservative when uncertain
 - Goal: help the reader understand the image, not overwhelm them
+- Obsidian readability matters; do not turn ordinary notes into frontend templates
 
 ## Tag Rule
 
@@ -105,3 +134,4 @@ When cleaning up an existing note, prioritize in this order:
 3. Improve readability
 4. Normalize tags and placeholders
 5. Add only minimal missing context
+6. Remove unnecessary presentation markup from ordinary notes

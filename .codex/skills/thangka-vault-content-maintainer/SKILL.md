@@ -18,6 +18,8 @@ Use this skill when working on Markdown content inside this repository's `conten
 
 Do not invent deployment, frontend, or Quartz details unless the user asks for them.
 
+This skill exists to protect the Markdown content layer. It should resist mixing presentation-layer layout into ordinary notes.
+
 ## First Step
 
 Before editing, inspect the closest existing files in `content/` and match the repository's current style rather than introducing a new house style.
@@ -40,7 +42,30 @@ At minimum:
 - Images live under `public/images/` by English category.
 - Markdown filenames should use lowercase kebab-case English slugs.
 
+Architecture boundary:
+
+- ordinary knowledge notes should stay pure Markdown
+- homepage or special landing-page layout belongs in Quartz or isolated presentation code
+- do not treat homepage exceptions as the default pattern for the vault
+
 Read [references/style-guide.md](references/style-guide.md) when you need the exact content template, naming rules, or editorial guardrails.
+
+## Content Purity Rule
+
+For normal knowledge entries, do not add:
+
+- repeated `div` or `section` wrappers for layout
+- CSS hook classes used only for site presentation
+- custom HTML card systems inside article notes
+
+Allowed exceptions:
+
+- frontmatter
+- image embeds
+- normal Markdown tables, lists, blockquotes, and separators
+- category or homepage work only when the user explicitly wants a landing surface
+
+If the user asks for homepage or special landing-page work, treat that as an exception and keep the pattern contained to that page instead of spreading it across the vault.
 
 ## Default Entry Structure
 
@@ -77,6 +102,7 @@ When revising existing notes:
 - Preserve placeholders such as `图片URL` or `XXX` unless the user provided real data.
 - Tighten repetition and jargon.
 - Normalize obvious inconsistencies in headings, bullets, punctuation, and tags.
+- Remove presentational HTML from ordinary notes when it is not essential to content meaning.
 
 ## Creation Rules
 
@@ -87,6 +113,7 @@ When creating a new note:
 3. Keep tags to roughly 3 to 6 items.
 4. Use an image placeholder or a real `/images/...` path only when known.
 5. Add a source section even if it only says `待补充`.
+6. Prefer pure Markdown over embedded HTML.
 
 ## Review Mode
 
@@ -97,6 +124,7 @@ If the user asks for a review, focus on:
 - Unsupported factual claims
 - Inconsistent tags, filenames, or image references
 - Missing or misleading source statements
+- Leakage of presentation-layer markup into content-layer notes
 
 ## Typical Requests This Skill Should Handle
 

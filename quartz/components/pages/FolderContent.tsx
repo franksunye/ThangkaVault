@@ -1,8 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
-
 import style from "../styles/listPage.scss"
 import { PageList, SortFn } from "../PageList"
-import { Root } from "hast"
+import { Element, ElementContent, Root } from "hast"
 import { htmlToJsx } from "../../util/jsx"
 import { i18n } from "../../i18n"
 import { QuartzPluginData } from "../../plugins/vfile"
@@ -22,6 +21,199 @@ interface FolderContentOptions {
 const defaultOptions: FolderContentOptions = {
   showFolderCount: true,
   showSubfolders: true,
+}
+
+interface CategoryLandingItem {
+  title?: string
+  description?: string
+  href?: string
+  image?: string
+  imageAlt?: string
+}
+
+interface CategoryLandingSection {
+  title?: string
+  description?: string
+  style?: string
+  items?: CategoryLandingItem[]
+}
+
+function renderCategoryLanding(
+  fileData: QuartzComponentProps["fileData"],
+  sections: CategoryLandingSection[],
+) {
+  if (sections.length === 0) return null
+
+  const eyebrow = fileData.frontmatter?.categoryEyebrow as string | undefined
+  const lead = fileData.frontmatter?.description as string | undefined
+  const image = fileData.frontmatter?.categoryCover as string | undefined
+  const imageAlt = fileData.frontmatter?.categoryCoverAlt as string | undefined
+  const pageTitle = fileData.frontmatter?.title
+
+  return (
+    <>
+      {(eyebrow || lead || image) && (
+        <section class="category-hero">
+          <div>
+            {eyebrow && <p class="eyebrow">{eyebrow}</p>}
+            {pageTitle && <h1>{pageTitle}</h1>}
+            {lead && <p class="lead">{lead}</p>}
+          </div>
+          {image && <img src={image} alt={imageAlt ?? pageTitle ?? "Category cover"} />}
+        </section>
+      )}
+      {sections.map((section) => {
+        const items = section.items ?? []
+        const variant = section.style ?? "feature"
+        const sectionClass =
+          variant === "entry"
+            ? "entry-grid compact"
+            : variant === "theme"
+              ? "theme-grid"
+              : "feature-path"
+
+        return (
+          <section class="landing-section stage-intro">
+            {section.title && <h2>{section.title}</h2>}
+            {section.description && <p>{section.description}</p>}
+            <div class={sectionClass}>
+              {items.map((item, index) => {
+                if (!item.href) return null
+
+                if (variant === "entry") {
+                  return (
+                    <a class="entry-card" href={item.href}>
+                      {item.image && <img src={item.image} alt={item.imageAlt ?? item.title ?? "Entry cover"} />}
+                      <div>
+                        {item.title && <div class="card-title">{item.title}</div>}
+                        {item.description && <div class="card-copy">{item.description}</div>}
+                      </div>
+                    </a>
+                  )
+                }
+
+                if (variant === "theme") {
+                  return (
+                    <a class="theme-card" href={item.href}>
+                      {item.title && <strong>{item.title}</strong>}
+                      {item.description && <span>{item.description}</span>}
+                    </a>
+                  )
+                }
+
+                return (
+                  <a class="feature-step" href={item.href}>
+                    <div class="feature-step-index">{String(index + 1).padStart(2, "0")}</div>
+                    <div class="feature-step-body">
+                      {item.title && <div class="feature-step-title">{item.title}</div>}
+                      {item.description && <p>{item.description}</p>}
+                    </div>
+                  </a>
+                )
+              })}
+            </div>
+          </section>
+        )
+      })}
+    </>
+  )
+}
+
+function extractCategoryLanding(root: Root) {
+  const sectionStyles: Record<string, string> = {
+    推荐阅读顺序: "feature",
+    继续延伸: "theme",
+  }
+
+  const sections: CategoryLandingSection[] = []
+  const keptChildren: ElementContent[] = []
+
+  for (let i = 0; i < root.children.length; i++) {
+    const node = root.children[i]
+
+    if (isElement(node) && node.tagName === "h2") {
+      const title = getNodeText(node).trim()
+      const nextIndex = findNextSignificantIndex(root.children, i + 1)
+      const nextNode = nextIndex !== -1 ? root.children[nextIndex] : undefined
+      const style = sectionStyles[title]
+
+      if (style && isElement(nextNode) && (nextNode.tagName === "ol" || nextNode.tagName === "ul")) {
+        sections.push({
+          title,
+          style,
+          items: parseLandingItems(nextNode),
+        })
+        i = nextIndex
+        continue
+      }
+    }
+
+    keptChildren.push(node)
+  }
+
+  return {
+    sections,
+    contentRoot: {
+      ...root,
+      children: keptChildren,
+    } satisfies Root,
+  }
+}
+
+function parseLandingItems(listNode: Element): CategoryLandingItem[] {
+  return listNode.children
+    .filter((child): child is Element => isElement(child) && child.tagName === "li")
+    .map((item) => {
+      const paragraphs = item.children.filter(
+        (child): child is Element => isElement(child) && child.tagName === "p",
+      )
+      const firstParagraph = paragraphs[0]
+      const descriptionParagraph = paragraphs.find((_, index) => index > 0)
+      const link = firstParagraph ? findFirstLink(firstParagraph) : undefined
+
+      return {
+        title: link?.title ?? (firstParagraph ? getNodeText(firstParagraph).trim() : undefined),
+        href: link?.href,
+        description: descriptionParagraph ? getNodeText(descriptionParagraph).trim() : undefined,
+      }
+    })
+    .filter((item) => item.href && item.title)
+}
+
+function findFirstLink(node: ElementContent): { href?: string; title?: string } | undefined {
+  if (!isElement(node)) return undefined
+
+  if (node.tagName === "a") {
+    const href = typeof node.properties?.href === "string" ? node.properties.href : undefined
+    return { href, title: getNodeText(node).trim() }
+  }
+
+  for (const child of node.children) {
+    const link = findFirstLink(child)
+    if (link) return link
+  }
+
+  return undefined
+}
+
+function getNodeText(node: ElementContent): string {
+  if (node.type === "text") return node.value
+  if (!isElement(node)) return ""
+  return node.children.map((child) => getNodeText(child)).join("")
+}
+
+function isElement(node: ElementContent | Root["children"][number] | undefined): node is Element {
+  return !!node && node.type === "element"
+}
+
+function findNextSignificantIndex(children: Root["children"], start: number) {
+  for (let i = start; i < children.length; i++) {
+    const node = children[i]
+    if (node.type === "text" && node.value.trim() === "") continue
+    return i
+  }
+
+  return -1
 }
 
 export default ((opts?: Partial<FolderContentOptions>) => {
@@ -96,15 +288,25 @@ export default ((opts?: Partial<FolderContentOptions>) => {
       allFiles: allPagesInFolder,
     }
 
+    const pageTree = tree as Root
+    const extractedLanding = isCategoryPage(fileData) ? extractCategoryLanding(pageTree) : null
+    const contentTree = extractedLanding?.contentRoot ?? pageTree
     const content = (
-      (tree as Root).children.length === 0
+      contentTree.children.length === 0
         ? fileData.description
-        : htmlToJsx(fileData.filePath!, tree)
+        : htmlToJsx(fileData.filePath!, contentTree)
     ) as ComponentChildren
+    const categoryLanding =
+      isCategoryPage(fileData) && extractedLanding
+        ? renderCategoryLanding(fileData, extractedLanding.sections)
+        : null
 
     return (
       <div class="popover-hint">
-        <article class={classes}>{content}</article>
+        <article class={classes}>
+          {categoryLanding}
+          {content}
+        </article>
         <div class="page-listing">
           {options.showFolderCount && (
             <p>
@@ -124,3 +326,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
   FolderContent.css = concatenateResources(style, PageList.css)
   return FolderContent
 }) satisfies QuartzComponentConstructor
+
+function isCategoryPage(fileData: QuartzComponentProps["fileData"]) {
+  return fileData.frontmatter?.cssclasses?.includes("category-page") ?? false
+}
