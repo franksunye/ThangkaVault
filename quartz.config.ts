@@ -11,7 +11,7 @@ const config: QuartzConfig = {
     pageTitle: "唐卡知库",
     pageTitleSuffix: " | ThangkaVault",
     enableSPA: true,
-    enablePopovers: true,
+    enablePopovers: false,
     analytics: null,
     locale: "zh-CN",
     baseUrl: "thangka.visutry.com",
