@@ -21,11 +21,6 @@ cssclasses:
         <strong>先看见，再辨认，最后理解象征</strong>
       </div>
     </div>
-    <div class="hero-facts">
-      <span>Beginner-first notes</span>
-      <span>Curated image entries</span>
-      <span>Traceable sources</span>
-    </div>
     <div class="hero-actions">
       <a class="product-button primary" href="/基础知识/what-is-thangka">从这里开始</a>
       <a class="product-button secondary" href="/佛像/">浏览主题</a>
@@ -36,19 +31,6 @@ cssclasses:
     <div class="hero-caption">
       <span>馆藏导览</span>
       <strong>先看人物与动作，再看空间与秩序</strong>
-    </div>
-  </div>
-</section>
-
-<section class="landing-section landing-section--intro">
-  <div class="intro-panel">
-    <p class="section-kicker">首页说明</p>
-    <h2>一个克制的入口，而不是内容目录</h2>
-    <p>你可以把这里理解为展厅前厅。它只负责提供观看顺序、主题入口和少量代表作品，不试图在首页解释完全部知识。</p>
-    <div class="collection-strip">
-      <span>High-resolution imagery</span>
-      <span>Structured reading</span>
-      <span>Slow looking</span>
     </div>
   </div>
 </section>
