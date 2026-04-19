@@ -8,18 +8,23 @@ cssclasses:
 <section class="hero-card">
   <div class="hero-copy">
     <p class="eyebrow">Digital Exhibition Archive</p>
-    <p class="hero-kicker">ThangkaVault</p>
+    <p class="hero-kicker">Curated Viewing Path</p>
     <h1>看懂唐卡，而不只是看见它</h1>
-    <p class="lead">一个以高质量唐卡图像和面向初学者的结构化解读为核心的内容型知识站点。</p>
+    <p class="lead">从图像本身进入，再进入主尊、手印、色彩与结构。首页不追求信息堆叠，而是提供一条足够清楚的观看入口。</p>
     <div class="hero-notes">
       <div>
-        <span>展览线索</span>
-        <strong>主尊、手印、色彩、结构</strong>
+        <span>观看线索</span>
+        <strong>人物、动作、颜色、空间</strong>
       </div>
       <div>
-        <span>观看方式</span>
-        <strong>从图像进入，再进入术语与象征</strong>
+        <span>阅读顺序</span>
+        <strong>先看见，再辨认，最后理解象征</strong>
       </div>
+    </div>
+    <div class="hero-facts">
+      <span>Beginner-first notes</span>
+      <span>Curated image entries</span>
+      <span>Traceable sources</span>
     </div>
     <div class="hero-actions">
       <a class="product-button primary" href="/基础知识/what-is-thangka">从这里开始</a>
@@ -31,6 +36,19 @@ cssclasses:
     <div class="hero-caption">
       <span>馆藏导览</span>
       <strong>先看人物与动作，再看空间与秩序</strong>
+    </div>
+  </div>
+</section>
+
+<section class="landing-section landing-section--intro">
+  <div class="intro-panel">
+    <p class="section-kicker">首页说明</p>
+    <h2>一个克制的入口，而不是内容目录</h2>
+    <p>你可以把这里理解为展厅前厅。它只负责提供观看顺序、主题入口和少量代表作品，不试图在首页解释完全部知识。</p>
+    <div class="collection-strip">
+      <span>High-resolution imagery</span>
+      <span>Structured reading</span>
+      <span>Slow looking</span>
     </div>
   </div>
 </section>
@@ -104,19 +122,26 @@ cssclasses:
 
 ## 精选图像与条目
 
-这里不是条目列表，而是一组适合直接进入观看状态的代表性图像入口。
+这里不是普通条目列表，而是一组适合直接进入观看状态的代表性入口。
+
+<div class="gallery-head">
+  <p>先从最容易建立识别感的图像开始，再逐步进入更复杂的主题。</p>
+  <span>Selected Works</span>
+</div>
 
 <div class="entry-grid">
-  <a class="entry-card" href="/佛像/shakyamuni-buddha-earth-touching">
+  <a class="entry-card entry-card--feature" href="/佛像/shakyamuni-buddha-earth-touching">
     <img src="/static/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg" alt="释迦牟尼佛触地印唐卡" />
     <div>
+      <div class="entry-meta">佛像 · 代表入口</div>
       <div class="card-title">释迦牟尼佛（触地印）</div>
-      <div class="card-copy">触地印是很多人第一次真正看懂唐卡动作语言的入口。</div>
+      <div class="card-copy">触地印常常是初学者第一次真正读懂唐卡动作语言的入口。它清楚、稳定，也最容易把“图像在表达什么”这件事建立起来。</div>
     </div>
   </a>
   <a class="entry-card" href="/菩萨/avalokiteshvara-bodhisattva">
     <img src="/static/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg" alt="观音菩萨相关唐卡形象" />
     <div>
+      <div class="entry-meta">菩萨 · 慈悲主题</div>
       <div class="card-title">观音菩萨（千手观音）</div>
       <div class="card-copy">从“慈悲如何被画出来”开始，理解菩萨图像的变化和层次。</div>
     </div>
@@ -124,6 +149,7 @@ cssclasses:
   <a class="entry-card" href="/菩萨/green-tara">
     <img src="/static/images/bodhisattva/green-tara-photo-dharma-commons.jpg" alt="绿度母唐卡" />
     <div>
+      <div class="entry-meta">菩萨 · 行动感</div>
       <div class="card-title">绿度母</div>
       <div class="card-copy">绿色、前伸的姿态和行动感，让她成为最适合入门的菩萨之一。</div>
     </div>
@@ -131,6 +157,7 @@ cssclasses:
   <a class="entry-card" href="/佛像/medicine-buddha">
     <img src="/static/images/buddha/medicine-buddha-artic-commons.jpg" alt="药师佛唐卡" />
     <div>
+      <div class="entry-meta">佛像 · 色彩识别</div>
       <div class="card-title">药师佛</div>
       <div class="card-copy">深蓝色身相非常醒目，也最能帮助初学者意识到颜色的意义。</div>
     </div>
@@ -138,6 +165,7 @@ cssclasses:
   <a class="entry-card" href="/符号/what-is-a-mudra">
     <img src="/static/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg" alt="手印示例唐卡" />
     <div>
+      <div class="entry-meta">符号 · 动作语言</div>
       <div class="card-title">唐卡中的手印是什么？</div>
       <div class="card-copy">手印是最快让你读出“这位主尊正在做什么”的视觉入口。</div>
     </div>
@@ -145,6 +173,7 @@ cssclasses:
   <a class="entry-card" href="/曼荼罗/what-is-mandala">
     <img src="/static/images/mandala/hevajra-mandala-met-37803.jpg" alt="曼荼罗唐卡" />
     <div>
+      <div class="entry-meta">曼荼罗 · 空间结构</div>
       <div class="card-title">什么是曼荼罗？</div>
       <div class="card-copy">当你开始看结构而不只是看人物，唐卡会立刻变得更有秩序。</div>
     </div>
@@ -158,15 +187,15 @@ cssclasses:
 <div class="trust-grid">
   <div class="trust-card">
     <h3>图像优先</h3>
-    <p>不是纯文字解释，而是把图片本身作为理解入口。</p>
+    <p>不是先给术语表，而是先让观看发生，再让解释跟上。</p>
   </div>
   <div class="trust-card">
     <h3>面向初学者</h3>
-    <p>先解释“发生了什么”，再进入术语和深层象征。</p>
+    <p>先解释“画面里发生了什么”，再进入术语和更深的象征。</p>
   </div>
   <div class="trust-card">
     <h3>来源可追溯</h3>
-    <p>首批图片来源已整理登记，可继续扩充和校验。</p>
+    <p>首批图片来源已经登记，后续扩充也会保持可校验的来源链路。</p>
   </div>
 </div>
 
