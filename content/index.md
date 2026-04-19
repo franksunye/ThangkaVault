@@ -74,9 +74,11 @@ cssclasses:
 按观看对象切换展厅，不同主题对应不同的识别方式。
 
 <div class="theme-grid">
-  <a class="theme-card" href="/基础知识/">
+  <a class="theme-card theme-card--featured" href="/基础知识/">
+    <span class="theme-card-eyebrow">推荐起点</span>
     <strong>基础知识</strong>
     <span>先建立观看方法和理解框架。</span>
+    <span class="theme-card-note">从最短路径进入唐卡的结构和语言。</span>
   </a>
   <a class="theme-card" href="/佛像/">
     <strong>佛像</strong>
