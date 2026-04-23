@@ -56,6 +56,62 @@ function startLoading() {
   }, 100)
 }
 
+const resourceKey = (el: Element) => {
+  if (el.tagName === "LINK") {
+    const href = el.getAttribute("href")
+    return href ? new URL(href, window.location.toString()).pathname : null
+  }
+
+  if (el.tagName === "SCRIPT") {
+    const src = el.getAttribute("src")
+    return src ? new URL(src, window.location.toString()).pathname : null
+  }
+
+  return null
+}
+
+async function syncPersistedStyles(nextHead: HTMLHeadElement) {
+  const currentPersisted = Array.from(
+    document.head.querySelectorAll('link[rel="stylesheet"][data-persist]'),
+  )
+  const incomingPersisted = Array.from(
+    nextHead.querySelectorAll('link[rel="stylesheet"][data-persist]'),
+  )
+
+  for (const nextStyle of incomingPersisted) {
+    const nextKey = resourceKey(nextStyle)
+    const currentStyle = currentPersisted.find((style) => resourceKey(style) === nextKey)
+    if (!currentStyle) {
+      const cloned = nextStyle.cloneNode(true) as HTMLLinkElement
+      await new Promise<void>((resolve) => {
+        cloned.addEventListener("load", () => resolve(), { once: true })
+        cloned.addEventListener("error", () => resolve(), { once: true })
+        document.head.appendChild(cloned)
+      })
+      continue
+    }
+
+    if (currentStyle.getAttribute("href") === nextStyle.getAttribute("href")) {
+      continue
+    }
+
+    const cloned = nextStyle.cloneNode(true) as HTMLLinkElement
+    await new Promise<void>((resolve) => {
+      cloned.addEventListener("load", () => resolve(), { once: true })
+      cloned.addEventListener("error", () => resolve(), { once: true })
+      document.head.appendChild(cloned)
+    })
+    currentStyle.remove()
+  }
+
+  const incomingKeys = new Set(incomingPersisted.map((style) => resourceKey(style)))
+  currentPersisted.forEach((style) => {
+    if (!incomingKeys.has(resourceKey(style))) {
+      style.remove()
+    }
+  })
+}
+
 let isNavigating = false
 let p: DOMParser
 async function _navigate(url: URL, isBack: boolean = false) {
@@ -103,6 +159,8 @@ async function _navigate(url: URL, isBack: boolean = false) {
 
   // morph body
   await micromorph(document.body, html.body)
+
+  await syncPersistedStyles(html.head)
 
   // scroll into place and add history
   if (!isBack) {

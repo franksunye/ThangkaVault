@@ -36,6 +36,7 @@ export function pageResources(
     css: [
       {
         content: withVersion(joinSegments(baseDir, "index.css")),
+        spaPreserve: true,
       },
       ...staticResources.css,
     ],
