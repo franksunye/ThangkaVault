@@ -43,12 +43,23 @@ function getImageTitle(img: HTMLImageElement) {
   )
 }
 
+/** Check whether an image element qualifies for immersive viewing */
+function isImmersiveTarget(img: Element): img is HTMLImageElement {
+  if (img.tagName !== "IMG") return false
+  if (!img.matches(IMAGE_SELECTOR)) return false
+  if (EXCLUDED_PARENTS.some((sel) => img.closest(sel))) return false
+  if (img.closest("a")) return false
+  return true
+}
+
 function ensureViewer() {
   if (viewer) return viewer
 
   const root = document.createElement("div")
   root.className = "immersive-image-viewer"
-  root.setAttribute("aria-hidden", "true")
+  // Use `inert` instead of `aria-hidden` to avoid the browser warning
+  // "Blocked aria-hidden on an element because its descendant retained focus"
+  root.inert = true
 
   const backdrop = document.createElement("div")
   backdrop.className = "immersive-image-backdrop"
@@ -223,41 +234,48 @@ function openViewer(img: HTMLImageElement) {
   els.image.alt = img.alt || ""
   resetTransform()
   els.root.classList.add("active")
-  els.root.setAttribute("aria-hidden", "false")
+  els.root.inert = false
   document.documentElement.classList.add("immersive-image-open")
 }
 
 function closeViewer() {
   if (!viewer) return
   viewer.root.classList.remove("active")
-  viewer.root.setAttribute("aria-hidden", "true")
+  viewer.root.inert = true
   document.documentElement.classList.remove("immersive-image-open")
   activeImage = null
   resetTransform()
 }
 
-function bindImages() {
-  const images = Array.from(document.querySelectorAll(IMAGE_SELECTOR)) as HTMLImageElement[]
+/**
+ * Apply the `cursor: zoom-in` class to all qualifying article images.
+ * Called on every "nav" event so that freshly-morphed DOM nodes get styled.
+ */
+function styleImages() {
+  const images = document.querySelectorAll(IMAGE_SELECTOR)
   for (const img of images) {
-    if (EXCLUDED_PARENTS.some((selector) => img.closest(selector))) continue
-    if (img.closest("a")) continue
-    if (img.dataset.immersiveBound === "true") continue
-    img.dataset.immersiveBound = "true"
+    if (!isImmersiveTarget(img)) continue
     img.classList.add("immersive-image-target")
-    const onClick = (event: MouseEvent) => {
-      event.preventDefault()
-      openViewer(img)
-    }
-    img.addEventListener("click", onClick)
-    window.addCleanup(() => {
-      img.removeEventListener("click", onClick)
-      delete img.dataset.immersiveBound
-      img.classList.remove("immersive-image-target")
-    })
   }
 }
 
+/**
+ * Single delegated click handler registered once on the document.
+ * Because it does not hold references to individual <img> elements,
+ * it is immune to DOM-node replacement by micromorph during SPA navigation.
+ */
+function onImageClick(event: MouseEvent) {
+  const img = (event.target as Element)?.closest?.(IMAGE_SELECTOR)
+  if (!img || !isImmersiveTarget(img)) return
+
+  event.preventDefault()
+  openViewer(img as HTMLImageElement)
+}
+
+// Register the delegated handler exactly once (survives SPA navigations)
+document.addEventListener("click", onImageClick)
+
 document.addEventListener("nav", () => {
   closeViewer()
-  bindImages()
+  styleImages()
 })
