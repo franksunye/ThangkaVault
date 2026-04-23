@@ -322,10 +322,6 @@
     box-shadow 0.18s ease,
     border-color 0.18s ease;
 
-  &:hover {
-    transform: translateY(-1px);
-  }
-
   &.primary {
     background: var(--secondary);
     color: var(--light);
@@ -525,12 +521,6 @@
     transform 0.18s ease,
     box-shadow 0.18s ease,
     border-color 0.18s ease;
-
-  &:hover {
-    transform: translateY(-2px);
-    border-color: color-mix(in srgb, var(--landing-accent) 42%, var(--landing-border));
-    box-shadow: 0 16px 34px rgba(67, 44, 20, 0.08);
-  }
 }
 
 .feature-step-index {
@@ -609,8 +599,23 @@
     transform 0.18s ease,
     box-shadow 0.18s ease,
     border-color 0.18s ease;
+}
 
-  &:hover {
+@media (hover: hover) and (pointer: fine) {
+  .product-button:hover {
+    transform: translateY(-1px);
+  }
+
+  .feature-step:hover {
+    transform: translateY(-2px);
+    border-color: color-mix(in srgb, var(--landing-accent) 42%, var(--landing-border));
+    box-shadow: 0 16px 34px rgba(67, 44, 20, 0.08);
+  }
+
+  .feature-card:hover,
+  .theme-card:hover,
+  .trust-card:hover,
+  .entry-card:hover {
     transform: translateY(-2px);
     border-color: color-mix(in srgb, var(--landing-accent) 40%, var(--landing-border));
     box-shadow: 0 14px 32px rgba(0, 0, 0, 0.08);
