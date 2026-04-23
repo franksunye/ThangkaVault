@@ -622,6 +622,29 @@
   }
 }
 
+@media (hover: none), (pointer: coarse) {
+  .product-button,
+  .feature-step,
+  .feature-card,
+  .theme-card,
+  .trust-card,
+  .entry-card {
+    transition: none;
+    transform: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .product-button:active,
+  .feature-step:active,
+  .feature-card:active,
+  .theme-card:active,
+  .trust-card:active,
+  .entry-card:active {
+    transform: none;
+    box-shadow: none;
+  }
+}
+
 .feature-card,
 .theme-card,
 .trust-card {
@@ -990,16 +1013,35 @@ footer {
   }
 
   .feature-step {
-    grid-template-columns: 1fr;
-    gap: 0.8rem;
-    padding: 1.05rem;
-    align-items: start;
+    display: block;
+    gap: 0;
+    padding: 1.1rem 1rem 1.05rem;
+    align-items: initial;
+    border-radius: 18px;
+    overflow: hidden;
+    contain: paint;
   }
 
   .feature-step-index {
     min-height: auto;
     width: fit-content;
-    align-self: start;
+    align-self: auto;
+    display: inline-flex;
+    margin-bottom: 0.85rem;
+    padding: 0.42rem 0.78rem;
+    border-radius: 999px;
+    font-size: 0.92rem;
+    line-height: 1;
+  }
+
+  .feature-step-body {
+    padding: 0;
+    gap: 0.55rem;
+  }
+
+  .feature-step-title {
+    font-size: 1.22rem;
+    line-height: 1.32;
   }
 
   .hero-caption {

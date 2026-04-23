@@ -46,6 +46,32 @@ This split matters because the repository is both:
 
 If page layout markup keeps leaking into Markdown, the vault stops being a clean content source and becomes tightly coupled to the current frontend.
 
+## Image Architecture Direction
+
+Images should also follow a separated architecture instead of being treated as simple page attachments.
+
+Long-term split:
+
+1. image source of truth: original high-quality assets with source and rights metadata
+2. publish layer: web-facing derived sizes, formats, and thumbnails
+3. presentation layer: Quartz only decides which image variant a page should request
+
+This means:
+
+- `content/` should never become the place where image delivery logic lives
+- Quartz should not assume the original asset is the same as the web delivery asset
+- the frontend should request image variants by context: hero, card, article, mobile, detail view
+
+Platform rule:
+
+- Vercel solves part of this automatically with its image pipeline
+- Cloudflare can also support this, but we must design the image strategy explicitly
+- do not let hosting choice define the content model
+
+Long-term goal:
+
+- keep content system, image asset system, and frontend display system decoupled
+
 ## Layer Boundary Rules
 
 ### 1. Content Layer
