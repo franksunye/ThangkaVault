@@ -26,6 +26,7 @@ let translateY = 0
 let pointerDrag: { x: number; y: number; startX: number; startY: number } | null = null
 let pinchStartDistance = 0
 let pinchStartScale = 1
+let isPinching = false
 let lastTouchEnd = 0
 
 const clamp = (value: number, min: number, max: number) => Math.min(max, Math.max(min, value))
@@ -131,6 +132,7 @@ function ensureViewer() {
     "touchstart",
     (event) => {
       if (event.touches.length === 2) {
+        isPinching = true
         pinchStartDistance = getTouchDistance(event.touches)
         pinchStartScale = scale
       }
@@ -169,8 +171,21 @@ function ensureViewer() {
     { passive: false },
   )
 
-  stage.addEventListener("touchend", () => {
+  stage.addEventListener("touchend", (event) => {
     pointerDrag = null
+
+    // If we were pinching and all fingers are now up, just clear the flag.
+    // Do NOT count this as a tap — otherwise two rapid touchend events
+    // from a simultaneous two-finger lift get misread as a double-tap,
+    // resetting the zoom the user just performed.
+    if (isPinching) {
+      if (event.touches.length === 0) {
+        isPinching = false
+      }
+      lastTouchEnd = 0
+      return
+    }
+
     const now = Date.now()
     if (now - lastTouchEnd < 260) {
       toggleZoom()
