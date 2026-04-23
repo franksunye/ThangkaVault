@@ -17,23 +17,32 @@ cssclasses:
 
 <section class="hero-card" id="top">
   <div class="hero-copy">
-    <p class="eyebrow">Digital Exhibition Archive</p>
-    <p class="hero-kicker">Curated Viewing Path</p>
-    <h1>看懂唐卡，而不只是看见它</h1>
-    <p class="lead">从图像本身进入，再进入主尊、手印、色彩与结构。首页不追求信息堆叠，而是提供一条足够清楚的观看入口。</p>
-    <div class="hero-notes">
-      <div>
+    <div class="hero-header">
+      <p class="eyebrow">Digital Exhibition Archive</p>
+      <p class="hero-kicker">Curated Viewing Path</p>
+      <h1>
+        <span class="hero-title-line">看懂唐卡，</span>
+        <span class="hero-title-line">而不只是看见它</span>
+      </h1>
+    </div>
+    <div class="hero-intro">
+      <p class="lead">从图像本身进入，再进入主尊、手印、色彩与结构。首页不追求信息堆叠，而是提供一条足够清楚的观看入口。</p>
+    </div>
+    <div class="hero-utility">
+      <div class="hero-notes">
+        <div>
         <span>观看线索</span>
         <strong>人物、动作、颜色、空间</strong>
-      </div>
-      <div>
+        </div>
+        <div>
         <span>阅读顺序</span>
         <strong>先看见，再辨认，最后理解象征</strong>
+        </div>
       </div>
-    </div>
-    <div class="hero-actions">
-      <a class="product-button primary" href="/基础知识/what-is-thangka">从这里开始</a>
-      <a class="product-button secondary" href="/佛像/">浏览主题</a>
+      <div class="hero-actions">
+        <a class="product-button primary" href="/基础知识/what-is-thangka">从这里开始</a>
+        <a class="product-button secondary" href="/佛像/">浏览主题</a>
+      </div>
     </div>
   </div>
   <div class="hero-visual">

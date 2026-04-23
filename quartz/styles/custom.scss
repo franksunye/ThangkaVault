@@ -179,10 +179,36 @@
 }
 
 .hero-copy {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 48rem;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "intro"
+    "utility";
+  grid-template-rows: auto auto minmax(0, 1fr);
+  align-content: center;
+  row-gap: 1.55rem;
+  max-width: 50rem;
+  min-width: 0;
+  container-type: inline-size;
+}
+
+.hero-header {
+  grid-area: header;
+  max-width: 36rem;
+}
+
+.hero-intro {
+  grid-area: intro;
+  max-width: 31rem;
+}
+
+.hero-utility {
+  grid-area: utility;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  align-content: start;
+  max-width: 31rem;
 }
 
 .hero-kicker {
@@ -206,30 +232,53 @@
   line-height: 1.9;
   color: var(--landing-ink-muted);
   margin: 0;
-  max-width: 30rem;
+  max-width: 31rem;
+  text-wrap: pretty;
 }
 
 .hero-card h1,
 .category-hero h1 {
-  font-size: clamp(2.7rem, 4vw, 4.2rem);
-  line-height: 1.04;
-  margin: 0 0 1.3rem;
+  font-size: clamp(2.2rem, 3.2vw, 3.8rem);
+  line-height: 0.98;
+  margin: 0;
   letter-spacing: -0.02em;
-  max-width: 13.8ch;
+  max-width: none;
+}
+
+.hero-title-line {
+  display: block;
+  white-space: nowrap;
+}
+
+.hero-title-line + .hero-title-line {
+  margin-top: 0.18em;
 }
 
 .hero-notes {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.85rem;
-  margin-top: 1.8rem;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin-top: 0;
+  border-radius: 18px;
+  overflow: hidden;
+  background: var(--landing-panel);
+  border: 1px solid var(--landing-border);
+  backdrop-filter: blur(10px);
 
   div {
-    padding: 0.95rem 1rem;
-    border-radius: 18px;
-    background: var(--landing-panel);
-    border: 1px solid var(--landing-border);
-    backdrop-filter: blur(10px);
+    display: grid;
+    grid-template-columns: minmax(4.9rem, 6rem) minmax(0, 1fr);
+    align-items: start;
+    column-gap: 1rem;
+    min-height: 100%;
+    padding: 0.9rem 1rem 0.95rem;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+  }
+
+  div + div {
+    border-top: 1px solid color-mix(in srgb, var(--landing-border) 90%, transparent);
   }
 
   span,
@@ -242,7 +291,8 @@
     text-transform: uppercase;
     letter-spacing: 0.12em;
     color: var(--landing-accent);
-    margin-bottom: 0.45rem;
+    margin-bottom: 0;
+    line-height: 1.55;
   }
 
   strong {
@@ -257,7 +307,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
-  margin-top: 1.8rem;
+  margin-top: 0.55rem;
 }
 
 .product-button {
@@ -265,7 +315,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 999px;
-  padding: 0.85rem 1.3rem;
+  padding: 0.82rem 1.18rem;
   font-weight: 700;
   transition:
     transform 0.18s ease,
@@ -286,6 +336,32 @@
     border: 1px solid var(--lightgray);
     color: var(--landing-ink);
     background: var(--landing-panel);
+  }
+}
+
+@media (max-width: 1400px) {
+  .hero-card,
+  .category-hero {
+    grid-template-columns: minmax(360px, 0.98fr) minmax(0, 1.02fr);
+  }
+
+  .hero-header,
+  .hero-intro,
+  .hero-utility {
+    max-width: 26rem;
+  }
+
+  .hero-card h1,
+  .category-hero h1 {
+    font-size: clamp(1.95rem, 2.6vw, 2.9rem);
+  }
+
+  .hero-actions {
+    gap: 0.65rem;
+  }
+
+  .product-button {
+    padding-inline: 1rem;
   }
 }
 
@@ -806,10 +882,20 @@ footer {
     min-height: auto;
   }
 
+  .hero-copy {
+    row-gap: 1.35rem;
+    max-width: 42rem;
+  }
+
+  .hero-header,
+  .hero-intro,
+  .hero-utility {
+    max-width: 24rem;
+  }
+
   .hero-card h1,
   .category-hero h1 {
-    font-size: clamp(2.55rem, 3.7vw, 3.8rem);
-    max-width: 13ch;
+    font-size: clamp(1.82rem, 2.9vw, 2.45rem);
   }
 
   .theme-grid {
@@ -874,6 +960,15 @@ footer {
   .hero-copy,
   .category-hero > div {
     padding: 1.4rem;
+  }
+
+  .hero-copy {
+    grid-template-areas:
+      "header"
+      "intro"
+      "utility";
+    row-gap: 1.15rem;
+    max-width: none;
   }
 
   .hero-visual {
