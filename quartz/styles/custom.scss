@@ -143,7 +143,7 @@
 .category-hero {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 0.94fr) minmax(460px, 1.06fr);
+  grid-template-columns: minmax(0, 1.02fr) minmax(440px, 0.98fr);
   gap: 0;
   align-items: stretch;
   background:
@@ -182,7 +182,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 40rem;
+  max-width: 43rem;
 }
 
 .hero-kicker {
@@ -215,7 +215,7 @@
   line-height: 1.04;
   margin: 0 0 1.3rem;
   letter-spacing: -0.02em;
-  max-width: 10ch;
+  max-width: 11.5ch;
 }
 
 .hero-notes {
