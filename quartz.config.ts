@@ -12,7 +12,10 @@ const config: QuartzConfig = {
     pageTitleSuffix: " | ThangkaVault",
     enableSPA: true,
     enablePopovers: false,
-    analytics: null,
+    analytics: {
+      provider: "google",
+      tagId: "G-9Q4783MBNM",
+    },
     locale: "zh-CN",
     baseUrl: "thangka.visutry.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
