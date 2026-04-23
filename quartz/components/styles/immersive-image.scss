@@ -1,0 +1,88 @@
+.immersive-image-target {
+  cursor: zoom-in;
+}
+
+.immersive-image-viewer {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 0.2s ease,
+    visibility 0.2s ease;
+}
+
+.immersive-image-viewer.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.immersive-image-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(12, 11, 10, 0.94);
+  backdrop-filter: blur(8px);
+}
+
+.immersive-image-topbar {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: max(1rem, env(safe-area-inset-top)) 1rem 0.6rem;
+  color: #f5efe6;
+}
+
+.immersive-image-title {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: rgba(245, 239, 230, 0.92);
+  max-width: 70vw;
+}
+
+.immersive-image-close {
+  appearance: none;
+  border: 0;
+  border-radius: 999px;
+  padding: 0.55rem 0.9rem;
+  background: rgba(250, 246, 240, 0.14);
+  color: #fff8ef;
+  font: inherit;
+}
+
+.immersive-image-stage {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  min-height: 0;
+  overflow: hidden;
+  padding: 0.5rem 0.75rem max(1rem, env(safe-area-inset-bottom));
+  touch-action: none;
+}
+
+.immersive-image-stage-img {
+  max-width: min(96vw, 1200px);
+  max-height: min(82vh, 1100px);
+  width: auto;
+  height: auto;
+  margin: 0;
+  border-radius: 12px;
+  object-fit: contain;
+  transform-origin: center center;
+  will-change: transform;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+html.immersive-image-open,
+html.immersive-image-open body {
+  overflow: hidden;
+}
