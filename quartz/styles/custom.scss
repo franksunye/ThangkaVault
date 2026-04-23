@@ -12,9 +12,10 @@
 .landing-page {
   max-width: 100%;
   padding-bottom: 3.5rem;
-  --landing-shell-wide: 1280px;
+  --landing-shell-wide: 1360px;
   --landing-shell-medium: 1160px;
   --landing-shell-narrow: 940px;
+  --landing-card-text-inset: 0.625rem;
   --landing-ink: var(--dark);
   --landing-ink-muted: var(--darkgray);
   --landing-accent: var(--secondary);
@@ -70,6 +71,38 @@
   }
 }
 
+.landing-nav {
+  max-width: var(--landing-shell-wide);
+  margin: 0 auto 1.4rem;
+  padding: 0.6rem 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--landing-border-strong) 72%, transparent);
+}
+
+.landing-nav-brand {
+  color: var(--landing-ink);
+  font-family: var(--headerFont);
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.landing-nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 1.15rem;
+
+  a {
+    color: var(--landing-ink-muted);
+    font-size: 0.92rem;
+    font-weight: 600;
+  }
+}
+
 :root[saved-theme="dark"] .landing-page {
   --landing-ink: #f3eadf;
   --landing-ink-muted: #d8c8b8;
@@ -110,7 +143,7 @@
 .category-hero {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1.02fr) minmax(320px, 0.98fr);
+  grid-template-columns: minmax(0, 0.94fr) minmax(460px, 1.06fr);
   gap: 0;
   align-items: stretch;
   background:
@@ -149,7 +182,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 38rem;
+  max-width: 40rem;
 }
 
 .hero-kicker {
@@ -178,11 +211,11 @@
 
 .hero-card h1,
 .category-hero h1 {
-  font-size: clamp(2.8rem, 5vw, 5rem);
-  line-height: 0.96;
+  font-size: clamp(2.8rem, 4.5vw, 4.7rem);
+  line-height: 1.04;
   margin: 0 0 1.3rem;
-  letter-spacing: -0.04em;
-  max-width: 8ch;
+  letter-spacing: -0.02em;
+  max-width: 10ch;
 }
 
 .hero-notes {
@@ -263,7 +296,7 @@
 
 .hero-visual {
   position: relative;
-  padding: 1.4rem 1.4rem 1.4rem 0.2rem;
+  padding: 1.1rem 1.1rem 1.1rem 0;
 }
 
 .hero-visual img,
@@ -335,7 +368,7 @@
 .stage-themes {
   max-width: var(--landing-shell-medium);
   margin-top: 1.5rem;
-  padding: 2.1rem 1.6rem 2.2rem;
+  padding: 2.35rem 1.95rem 2.35rem;
   border-top: 1px solid var(--landing-border);
   border-bottom: 1px solid var(--landing-border);
   background:
@@ -447,7 +480,7 @@
   justify-content: center;
   gap: 0.7rem;
   min-width: 0;
-  padding: 0.3rem 0.2rem 0.3rem 0;
+  padding: 0.3rem var(--landing-card-text-inset) 0.3rem 0;
 
   p {
     margin: 0;
@@ -474,7 +507,7 @@
   grid-template-columns: repeat(4, minmax(0, 1fr));
   grid-auto-rows: minmax(148px, auto);
   align-items: stretch;
-  gap: 1rem;
+  gap: 1.05rem;
 }
 
 .entry-grid {
@@ -540,7 +573,7 @@
 .theme-card {
   position: relative;
   min-height: 100%;
-  padding: 1.7rem 1.35rem 1.35rem;
+  padding: 1.55rem 1.4rem 1.35rem;
   background: linear-gradient(180deg, var(--landing-panel), var(--landing-panel-soft));
   border-radius: 18px;
   box-shadow: 0 8px 20px rgba(70, 48, 22, 0.04);
@@ -556,17 +589,22 @@
 
   strong {
     display: block;
-    font-size: 1.08rem;
-    line-height: 1.16;
-    margin: 0 0 1.15rem;
-    padding-top: 0.1rem;
+    font-size: 1.18rem;
+    line-height: 1.28;
+    margin: 0 0 1rem;
+    padding-top: var(--landing-card-text-inset);
+    padding-left: var(--landing-card-text-inset);
+    padding-right: var(--landing-card-text-inset);
     color: var(--landing-ink);
   }
 
   span {
+    display: block;
     color: var(--landing-ink-muted);
-    line-height: 1.78;
+    line-height: 1.74;
     font-size: 0.96rem;
+    padding-left: var(--landing-card-text-inset);
+    padding-right: var(--landing-card-text-inset);
   }
 }
 
@@ -574,14 +612,14 @@
   display: inline-flex;
   align-items: center;
   width: fit-content;
-  padding: 0.34rem 0.62rem;
+  padding: 0.36rem 0.72rem;
   border-radius: 999px;
   background: var(--landing-accent-soft);
   color: var(--landing-accent);
   font-size: 0.68rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  margin-bottom: 0.95rem;
+  margin-bottom: 1.05rem;
 }
 
 .theme-card-note {
@@ -596,7 +634,7 @@
 .theme-card--featured {
   grid-column: span 2;
   grid-row: span 2;
-  padding: 1.95rem 1.65rem 1.6rem;
+  padding: 2.15rem 2.2rem 1.95rem;
   background:
     radial-gradient(circle at top right, var(--landing-accent-glow), transparent 44%),
     linear-gradient(
@@ -606,16 +644,24 @@
     );
 
   strong {
-    font-size: 1.75rem;
-    max-width: 5ch;
-    line-height: 1.05;
-    margin-bottom: 1.15rem;
+    font-size: 1.72rem;
+    max-width: none;
+    line-height: 1.12;
+    margin-bottom: 1rem;
+    padding-top: 0;
+    padding-left: var(--landing-card-text-inset);
+    padding-right: var(--landing-card-text-inset);
+    letter-spacing: 0.01em;
+    white-space: nowrap;
   }
 
   span:not(.theme-card-note) {
-    max-width: 22ch;
-    font-size: 1rem;
-    line-height: 1.82;
+    display: block;
+    max-width: 24ch;
+    font-size: 1.02rem;
+    line-height: 1.76;
+    padding-left: var(--landing-card-text-inset);
+    padding-right: var(--landing-card-text-inset);
   }
 }
 
@@ -628,12 +674,16 @@
 
   h3 {
     color: var(--landing-ink);
+    padding-left: var(--landing-card-text-inset);
+    padding-right: var(--landing-card-text-inset);
   }
 
   p {
     margin: 0;
     color: color-mix(in srgb, var(--landing-ink-muted) 92%, var(--landing-ink) 8%);
     line-height: 1.76;
+    padding-left: var(--landing-card-text-inset);
+    padding-right: var(--landing-card-text-inset);
   }
 }
 
@@ -686,6 +736,14 @@
     font-weight: 700;
     line-height: 1.3;
     margin: 0;
+    padding-left: var(--landing-card-text-inset);
+    padding-right: var(--landing-card-text-inset);
+  }
+
+  .entry-meta,
+  .card-copy {
+    padding-left: var(--landing-card-text-inset);
+    padding-right: var(--landing-card-text-inset);
   }
 }
 
@@ -739,6 +797,10 @@ footer {
 }
 
 @media (max-width: 1100px) {
+  .landing-nav {
+    margin-bottom: 1rem;
+  }
+
   .hero-card,
   .category-hero {
     min-height: auto;
@@ -766,6 +828,17 @@ footer {
 }
 
 @media (max-width: 800px) {
+  .landing-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 0.7rem;
+  }
+
+  .landing-nav-links {
+    justify-content: flex-start;
+    gap: 0.85rem 1rem;
+  }
+
   .hero-card,
   .category-hero {
     grid-template-columns: 1fr;

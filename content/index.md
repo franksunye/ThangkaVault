@@ -5,7 +5,17 @@ cssclasses:
   - landing-page
 ---
 
-<section class="hero-card">
+<nav class="landing-nav" aria-label="首页导航">
+  <a class="landing-nav-brand" href="/">唐卡知库</a>
+  <div class="landing-nav-links">
+    <a href="#start-here">开始阅读</a>
+    <a href="#browse-themes">浏览主题</a>
+    <a href="#selected-works">精选条目</a>
+    <a href="/image-sources">图片来源</a>
+  </div>
+</nav>
+
+<section class="hero-card" id="top">
   <div class="hero-copy">
     <p class="eyebrow">Digital Exhibition Archive</p>
     <p class="hero-kicker">Curated Viewing Path</p>
@@ -35,7 +45,7 @@ cssclasses:
   </div>
 </section>
 
-<section class="landing-section stage-intro">
+<section class="landing-section stage-intro" id="start-here">
 
 ## 从这里开始
 
@@ -67,7 +77,7 @@ cssclasses:
 
 </section>
 
-<section class="landing-section stage-themes">
+<section class="landing-section stage-themes" id="browse-themes">
 
 ## 浏览主题
 
@@ -100,7 +110,7 @@ cssclasses:
 
 </section>
 
-<section class="landing-section stage-gallery">
+<section class="landing-section stage-gallery" id="selected-works">
 
 ## 精选图像与条目
 
@@ -183,4 +193,4 @@ cssclasses:
 
 ## 图片与来源
 
-首批图片来源已记录在 [[图片来源登记]]。
+首批图片来源已记录在 [图片来源登记](/image-sources)。

@@ -10,7 +10,7 @@ description: ""
 ## thangka-with-buddha-met-37821.jpg
 
 - 本地路径：`/static/images/buddha/thangka-with-buddha-met-37821.jpg`
-- 对应页面：[[什么是唐卡？]]
+- 对应页面：[什么是唐卡？](/基础知识/what-is-thangka)
 - 标题：Thangka with Buddha
 - 来源机构：The Metropolitan Museum of Art
 - 来源链接：https://www.metmuseum.org/art/collection/search/37821
@@ -20,7 +20,7 @@ description: ""
 ## shakyamuni-lord-of-the-munis-met-75274.jpg
 
 - 本地路径：`/static/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg`
-- 对应页面：[[释迦牟尼佛（触地印）]]
+- 对应页面：[释迦牟尼佛（触地印）](/佛像/shakyamuni-buddha-earth-touching)
 - 标题：Buddha Shakyamuni as "Lord of the Munis"
 - 来源机构：The Metropolitan Museum of Art
 - 来源链接：https://www.metmuseum.org/art/collection/search/75274
@@ -30,7 +30,7 @@ description: ""
 ## thousand-armed-chenresi-commons.jpg
 
 - 本地路径：`/static/images/bodhisattva/thousand-armed-chenresi-commons.jpg`
-- 对应页面：[[观音菩萨（千手观音）]]
+- 对应页面：[观音菩萨（千手观音）](/菩萨/avalokiteshvara-bodhisattva)
 - 标题：Thousand-Armed Chenresi, a Cosmic Form of the Bodhisattva Avalokiteshvara
 - 来源机构：Wikimedia Commons
 - 来源链接：https://commons.wikimedia.org/wiki/File:Thousand-Armed_Chenresi,_a_Cosmic_Form_of_the_Bodhisattva_Avalokiteshvara.jpg
@@ -40,7 +40,7 @@ description: ""
 ## green-tara-photo-dharma-commons.jpg
 
 - 本地路径：`/static/images/bodhisattva/green-tara-photo-dharma-commons.jpg`
-- 对应页面：[[绿度母]]
+- 对应页面：[绿度母](/菩萨/green-tara)
 - 标题：037 Green Tara Thangka (34342913234)
 - 来源机构：Wikimedia Commons
 - 来源链接：https://commons.wikimedia.org/wiki/File:037_Green_Tara_Thangka_(34342913234).jpg
@@ -50,7 +50,7 @@ description: ""
 ## medicine-buddha-artic-commons.jpg
 
 - 本地路径：`/static/images/buddha/medicine-buddha-artic-commons.jpg`
-- 对应页面：[[药师佛]]
+- 对应页面：[药师佛](/佛像/medicine-buddha)
 - 标题：Painted Banner (Thangka) with the Medicine Buddha (Bhaishajyaguru)
 - 来源机构：Wikimedia Commons / Art Institute of Chicago
 - 来源链接：https://commons.wikimedia.org/wiki/File:Anonymous_-_Painted_Banner_(Thangka)_with_the_Medicine_Buddha_(Bhaishajyaguru)_-_1996.29_-_Art_Institute_of_Chicago.jpg
@@ -60,7 +60,7 @@ description: ""
 ## hevajra-mandala-met-37803.jpg
 
 - 本地路径：`/static/images/mandala/hevajra-mandala-met-37803.jpg`
-- 对应页面：[[什么是曼荼罗？]]
+- 对应页面：[什么是曼荼罗？](/曼荼罗/what-is-mandala)
 - 标题：Hevajra Mandala
 - 来源机构：The Metropolitan Museum of Art
 - 来源链接：https://www.metmuseum.org/art/collection/search/37803
@@ -70,7 +70,7 @@ description: ""
 ## white-tara-and-green-tara-met-60053029.jpg
 
 - 本地路径：`/static/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg`
-- 对应页面：[[如何看懂一幅唐卡？]]、[[菩萨]]、[[符号]]、[[唐卡颜色的象征意义]]、[[莲花在唐卡中象征什么？]]
+- 对应页面：[如何看懂一幅唐卡？](/基础知识/how-to-read-a-thangka)、[菩萨](/菩萨/)、[符号](/符号/)、[唐卡颜色的象征意义](/符号/color-symbolism-in-thangka)、[莲花在唐卡中象征什么？](/符号/lotus-symbolism)
 - 标题：White Tara and Green Tara
 - 来源机构：The Metropolitan Museum of Art
 - 来源链接：https://www.metmuseum.org/art/collection/search/60053029
