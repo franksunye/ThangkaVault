@@ -3,8 +3,8 @@ title: "唐卡中的手印是什么？"
 description: "手印是人物用手部动作传达意义的方式，常常比文字更快地告诉你这尊主尊在表达什么。"
 ---
 
-# 唐卡中的手印是什么？
-# What Is a Mudra in Thangka?
+## 唐卡中的手印是什么？
+### What Is a Mudra in Thangka?
 
 ![手印示例](/static/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg)
 
@@ -48,12 +48,12 @@ description: "手印是人物用手部动作传达意义的方式，常常比文
 
 ## 延伸理解
 
-像 [[释迦牟尼佛（触地印）]] 这样的条目，真正容易被记住，往往不是因为名字，而是因为那个非常明确的动作。手印正是唐卡最有效的视觉语言之一。
+像 [释迦牟尼佛（触地印）](../佛像/shakyamuni-buddha-earth-touching.md) 这样的条目，真正容易被记住，往往不是因为名字，而是因为那个非常明确的动作。手印正是唐卡最有效的视觉语言之一。
 
 继续阅读：
 
-- [[释迦牟尼佛（触地印）]]
-- [[如何看懂一幅唐卡？]]
+- [释迦牟尼佛（触地印）](../佛像/shakyamuni-buddha-earth-touching.md)
+- [如何看懂一幅唐卡？](../基础知识/how-to-read-a-thangka.md)
 
 ---
 
@@ -65,6 +65,6 @@ description: "手印是人物用手部动作传达意义的方式，常常比文
 
 ## 来源说明
 
-图片来源：The Metropolitan Museum of Art，《Buddha Shakyamuni as "Lord of the Munis"》，Object ID 75274（Public Domain）
-来源链接：https://www.metmuseum.org/art/collection/search/75274
-内容整理：唐卡知库（ThangkaVault）
+- 图片来源：The Metropolitan Museum of Art，《Buddha Shakyamuni as "Lord of the Munis"》，Object ID 75274（Public Domain）
+- 原始链接：[查看原始来源](https://www.metmuseum.org/art/collection/search/75274)
+- 内容整理：唐卡知库（ThangkaVault）

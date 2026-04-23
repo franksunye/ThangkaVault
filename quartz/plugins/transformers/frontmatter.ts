@@ -147,10 +147,17 @@ declare module "vfile" {
         socialDescription: string
         publish: boolean | string
         draft: boolean | string
+        noindex: boolean | string
         lang: string
         enableToc: string
         cssclasses: string[]
         socialImage: string
+        keywords: string[]
+        schemaType: string
+        sourceUrl: string
+        sourceOrganization: string
+        sourceLicense: string
+        sameAs: string[]
         comments: boolean | string
       }>
   }

@@ -3,8 +3,8 @@ title: "莲花在唐卡中象征什么？"
 description: "莲花是唐卡中最常见的符号之一，常用来表达纯净、托举和神圣性。"
 ---
 
-# 莲花在唐卡中象征什么？
-# What Does the Lotus Symbolize in Thangka?
+## 莲花在唐卡中象征什么？
+### What Does the Lotus Symbolize in Thangka?
 
 ![莲花示例](/static/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg)
 
@@ -52,9 +52,9 @@ description: "莲花是唐卡中最常见的符号之一，常用来表达纯净
 
 继续阅读：
 
-- [[观音菩萨（千手观音）]]
-- [[绿度母]]
-- [[如何看懂一幅唐卡？]]
+- [观音菩萨（千手观音）](../菩萨/avalokiteshvara-bodhisattva.md)
+- [绿度母](../菩萨/green-tara.md)
+- [如何看懂一幅唐卡？](../基础知识/how-to-read-a-thangka.md)
 
 ---
 
@@ -66,6 +66,6 @@ description: "莲花是唐卡中最常见的符号之一，常用来表达纯净
 
 ## 来源说明
 
-图片来源：The Metropolitan Museum of Art，《White Tara and Green Tara》，Object ID 60053029（Public Domain）
-来源链接：https://www.metmuseum.org/art/collection/search/60053029
-内容整理：唐卡知库（ThangkaVault）
+- 图片来源：The Metropolitan Museum of Art，《White Tara and Green Tara》，Object ID 60053029（Public Domain）
+- 原始链接：[查看原始来源](https://www.metmuseum.org/art/collection/search/60053029)
+- 内容整理：唐卡知库（ThangkaVault）

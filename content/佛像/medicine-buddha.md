@@ -3,8 +3,8 @@ title: "药师佛"
 description: "药师佛是与疗愈、安定和解除痛苦相关的佛像形象，常以深蓝色身相出现。"
 ---
 
-# 药师佛
-# Medicine Buddha
+## 药师佛
+### Medicine Buddha
 
 ![药师佛唐卡](/static/images/buddha/medicine-buddha-artic-commons.jpg)
 
@@ -52,9 +52,9 @@ description: "药师佛是与疗愈、安定和解除痛苦相关的佛像形象
 
 继续阅读：
 
-- [[释迦牟尼佛（触地印）]]
-- [[什么是唐卡？]]
-- [[如何看懂一幅唐卡？]]
+- [释迦牟尼佛（触地印）](./shakyamuni-buddha-earth-touching.md)
+- [什么是唐卡？](../基础知识/what-is-thangka.md)
+- [如何看懂一幅唐卡？](../基础知识/how-to-read-a-thangka.md)
 
 ---
 
@@ -66,6 +66,6 @@ description: "药师佛是与疗愈、安定和解除痛苦相关的佛像形象
 
 ## 来源说明
 
-图片来源：Wikimedia Commons / Art Institute of Chicago，《Painted Banner (Thangka) with the Medicine Buddha (Bhaishajyaguru)》（Public Domain / CC0 digital reproduction）
-来源链接：https://commons.wikimedia.org/wiki/File:Anonymous_-_Painted_Banner_(Thangka)_with_the_Medicine_Buddha_(Bhaishajyaguru)_-_1996.29_-_Art_Institute_of_Chicago.jpg
-内容整理：唐卡知库（ThangkaVault）
+- 图片来源：Wikimedia Commons / Art Institute of Chicago，《Painted Banner (Thangka) with the Medicine Buddha (Bhaishajyaguru)》（Public Domain / CC0 digital reproduction）
+- 原始链接：[查看原始来源](https://commons.wikimedia.org/wiki/File:Anonymous_-_Painted_Banner_(Thangka)_with_the_Medicine_Buddha_(Bhaishajyaguru)_-_1996.29_-_Art_Institute_of_Chicago.jpg)
+- 内容整理：唐卡知库（ThangkaVault）

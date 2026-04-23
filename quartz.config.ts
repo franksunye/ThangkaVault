@@ -86,6 +86,7 @@ const config: QuartzConfig = {
         enableRSS: true,
         rssLimit: 20,
       }),
+      Plugin.Robots(),
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.Favicon(),

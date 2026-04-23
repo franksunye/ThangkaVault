@@ -3,8 +3,8 @@ title: "什么是唐卡？"
 description: "唐卡是一种可以卷起保存的宗教绘画，用来帮助修行者理解、观想和记忆佛教世界。"
 ---
 
-# 什么是唐卡？
-# What is a Thangka?
+## 什么是唐卡？
+### What is a Thangka?
 
 ![唐卡示例：藏地佛像唐卡](/static/images/buddha/thangka-with-buddha-met-37821.jpg)
 
@@ -47,8 +47,8 @@ description: "唐卡是一种可以卷起保存的宗教绘画，用来帮助修
 
 继续阅读：
 
-- [[释迦牟尼佛（触地印）]]
-- [[观音菩萨（千手观音）]]
+- [释迦牟尼佛（触地印）](../佛像/shakyamuni-buddha-earth-touching.md)
+- [观音菩萨（千手观音）](../菩萨/avalokiteshvara-bodhisattva.md)
 
 ---
 
@@ -60,6 +60,6 @@ description: "唐卡是一种可以卷起保存的宗教绘画，用来帮助修
 
 ## 来源说明
 
-图片来源：The Metropolitan Museum of Art，《Thangka with Buddha》，Object ID 37821（Public Domain）
-来源链接：https://www.metmuseum.org/art/collection/search/37821
-内容整理：唐卡知库（ThangkaVault）
+- 图片来源：The Metropolitan Museum of Art，《Thangka with Buddha》，Object ID 37821（Public Domain）
+- 原始链接：[查看原始来源](https://www.metmuseum.org/art/collection/search/37821)
+- 内容整理：唐卡知库（ThangkaVault）

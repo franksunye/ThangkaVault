@@ -3,8 +3,8 @@ title: "唐卡颜色的象征意义"
 description: "唐卡里的颜色通常不是装饰性的选择，而是在帮助你更快识别人物气质和象征方向。"
 ---
 
-# 唐卡颜色的象征意义
-# Color Symbolism in Thangka
+## 唐卡颜色的象征意义
+### Color Symbolism in Thangka
 
 ![颜色示例](/static/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg)
 
@@ -48,13 +48,13 @@ description: "唐卡里的颜色通常不是装饰性的选择，而是在帮助
 
 ## 延伸理解
 
-像 [[药师佛]] 和 [[绿度母]] 这样的条目，本身就很适合用来理解颜色。它们之所以容易记住，很大程度上就是因为颜色与意义结合得非常直接。
+像 [药师佛](../佛像/medicine-buddha.md) 和 [绿度母](../菩萨/green-tara.md) 这样的条目，本身就很适合用来理解颜色。它们之所以容易记住，很大程度上就是因为颜色与意义结合得非常直接。
 
 继续阅读：
 
-- [[药师佛]]
-- [[绿度母]]
-- [[什么是唐卡？]]
+- [药师佛](../佛像/medicine-buddha.md)
+- [绿度母](../菩萨/green-tara.md)
+- [什么是唐卡？](../基础知识/what-is-thangka.md)
 
 ---
 
@@ -66,6 +66,6 @@ description: "唐卡里的颜色通常不是装饰性的选择，而是在帮助
 
 ## 来源说明
 
-图片来源：The Metropolitan Museum of Art，《White Tara and Green Tara》，Object ID 60053029（Public Domain）
-来源链接：https://www.metmuseum.org/art/collection/search/60053029
-内容整理：唐卡知库（ThangkaVault）
+- 图片来源：The Metropolitan Museum of Art，《White Tara and Green Tara》，Object ID 60053029（Public Domain）
+- 原始链接：[查看原始来源](https://www.metmuseum.org/art/collection/search/60053029)
+- 内容整理：唐卡知库（ThangkaVault）

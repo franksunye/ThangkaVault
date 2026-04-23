@@ -3,8 +3,8 @@ title: "什么是曼荼罗？"
 description: "曼荼罗是一种以中心和对称结构组织起来的宗教图像，用来呈现一个有秩序的神圣世界。"
 ---
 
-# 什么是曼荼罗？
-# What is a Mandala?
+## 什么是曼荼罗？
+### What is a Mandala?
 
 ![曼荼罗示例](/static/images/mandala/hevajra-mandala-met-37803.jpg)
 
@@ -52,8 +52,8 @@ description: "曼荼罗是一种以中心和对称结构组织起来的宗教图
 
 继续阅读：
 
-- [[什么是唐卡？]]
-- [[如何看懂一幅唐卡？]]
+- [什么是唐卡？](../基础知识/what-is-thangka.md)
+- [如何看懂一幅唐卡？](../基础知识/how-to-read-a-thangka.md)
 
 ---
 
@@ -65,6 +65,6 @@ description: "曼荼罗是一种以中心和对称结构组织起来的宗教图
 
 ## 来源说明
 
-图片来源：The Metropolitan Museum of Art，《Hevajra Mandala》，Object ID 37803（Public Domain）
-来源链接：https://www.metmuseum.org/art/collection/search/37803
-内容整理：唐卡知库（ThangkaVault）
+- 图片来源：The Metropolitan Museum of Art，《Hevajra Mandala》，Object ID 37803（Public Domain）
+- 原始链接：[查看原始来源](https://www.metmuseum.org/art/collection/search/37803)
+- 内容整理：唐卡知库（ThangkaVault）

@@ -3,8 +3,8 @@ title: "释迦牟尼佛（触地印）"
 description: "这是佛陀成道的瞬间，右手触地，象征“以大地为证”。"
 ---
 
-# 释迦牟尼佛（触地印）
-# Shakyamuni Buddha · Earth-Touching Mudra
+## 释迦牟尼佛（触地印）
+### Shakyamuni Buddha · Earth-Touching Mudra
 
 ![释迦牟尼佛唐卡](/static/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg)
 
@@ -64,9 +64,9 @@ description: "这是佛陀成道的瞬间，右手触地，象征“以大地为
 
 继续阅读：
 
-- [[什么是唐卡？]]
-- [[如何看懂一幅唐卡？]]
-- [[观音菩萨（千手观音）]]
+- [什么是唐卡？](../基础知识/what-is-thangka.md)
+- [如何看懂一幅唐卡？](../基础知识/how-to-read-a-thangka.md)
+- [观音菩萨（千手观音）](../菩萨/avalokiteshvara-bodhisattva.md)
 
 ---
 
@@ -78,6 +78,6 @@ description: "这是佛陀成道的瞬间，右手触地，象征“以大地为
 
 ## 来源说明
 
-图片来源：The Metropolitan Museum of Art，《Buddha Shakyamuni as "Lord of the Munis"》，Object ID 75274（Public Domain）
-来源链接：https://www.metmuseum.org/art/collection/search/75274
-内容整理：唐卡知库（ThangkaVault）
+- 图片来源：The Metropolitan Museum of Art，《Buddha Shakyamuni as "Lord of the Munis"》，Object ID 75274（Public Domain）
+- 原始链接：[查看原始来源](https://www.metmuseum.org/art/collection/search/75274)
+- 内容整理：唐卡知库（ThangkaVault）

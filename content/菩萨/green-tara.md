@@ -3,8 +3,8 @@ title: "绿度母"
 description: "绿度母象征迅速行动的慈悲，像是一位随时准备回应众生困难的守护者。"
 ---
 
-# 绿度母
-# Green Tara
+## 绿度母
+### Green Tara
 
 ![绿度母唐卡](/static/images/bodhisattva/green-tara-photo-dharma-commons.jpg)
 
@@ -52,9 +52,9 @@ description: "绿度母象征迅速行动的慈悲，像是一位随时准备回
 
 继续阅读：
 
-- [[观音菩萨（千手观音）]]
-- [[如何看懂一幅唐卡？]]
-- [[什么是唐卡？]]
+- [观音菩萨（千手观音）](./avalokiteshvara-bodhisattva.md)
+- [如何看懂一幅唐卡？](../基础知识/how-to-read-a-thangka.md)
+- [什么是唐卡？](../基础知识/what-is-thangka.md)
 
 ---
 
@@ -66,6 +66,6 @@ description: "绿度母象征迅速行动的慈悲，像是一位随时准备回
 
 ## 来源说明
 
-图片来源：Wikimedia Commons / Photo Dharma，《037 Green Tara Thangka (34342913234)》（CC BY 2.0）
-来源链接：https://commons.wikimedia.org/wiki/File:037_Green_Tara_Thangka_(34342913234).jpg
-内容整理：唐卡知库（ThangkaVault）
+- 图片来源：Wikimedia Commons / Photo Dharma，《037 Green Tara Thangka (34342913234)》（CC BY 2.0）
+- 原始链接：[查看原始来源](https://commons.wikimedia.org/wiki/File:037_Green_Tara_Thangka_(34342913234).jpg)
+- 内容整理：唐卡知库（ThangkaVault）

@@ -3,8 +3,8 @@ title: "如何看懂一幅唐卡？"
 description: "看懂唐卡，不是一次看完所有细节，而是先认出主尊，再理解动作、颜色和周围符号。"
 ---
 
-# 如何看懂一幅唐卡？
-# How to Read a Thangka
+## 如何看懂一幅唐卡？
+### How to Read a Thangka
 
 ![唐卡结构示例](/static/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg)
 
@@ -47,11 +47,11 @@ description: "看懂唐卡，不是一次看完所有细节，而是先认出主
 
 继续阅读：
 
-- [[什么是唐卡？]]
-- [[释迦牟尼佛（触地印）]]
-- [[观音菩萨（千手观音）]]
-- [[唐卡中的手印是什么？]]
-- [[唐卡颜色的象征意义]]
+- [什么是唐卡？](./what-is-thangka.md)
+- [释迦牟尼佛（触地印）](../佛像/shakyamuni-buddha-earth-touching.md)
+- [观音菩萨（千手观音）](../菩萨/avalokiteshvara-bodhisattva.md)
+- [唐卡中的手印是什么？](../符号/what-is-a-mudra.md)
+- [唐卡颜色的象征意义](../符号/color-symbolism-in-thangka.md)
 
 ---
 
@@ -63,6 +63,6 @@ description: "看懂唐卡，不是一次看完所有细节，而是先认出主
 
 ## 来源说明
 
-图片来源：The Metropolitan Museum of Art，《White Tara and Green Tara》，Object ID 60053029（Public Domain）
-来源链接：https://www.metmuseum.org/art/collection/search/60053029
-内容整理：唐卡知库（ThangkaVault）
+- 图片来源：The Metropolitan Museum of Art，《White Tara and Green Tara》，Object ID 60053029（Public Domain）
+- 原始链接：[查看原始来源](https://www.metmuseum.org/art/collection/search/60053029)
+- 内容整理：唐卡知库（ThangkaVault）
