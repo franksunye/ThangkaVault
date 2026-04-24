@@ -18,21 +18,38 @@ type ViewerEls = {
   image: HTMLImageElement
 }
 
-let viewer: ViewerEls | null = null
-let activeImage: HTMLImageElement | null = null
-let scale = 1
-let translateX = 0
-let translateY = 0
-let pointerDrag: { x: number; y: number; startX: number; startY: number } | null = null
-let pinchStartDistance = 0
-let pinchStartScale = 1
-let isPinching = false
-let lastTouchEnd = 0
+type ImmersiveImageState = {
+  viewer: ViewerEls | null
+  activeImage: HTMLImageElement | null
+  scale: number
+  translateX: number
+  translateY: number
+  pointerDrag: { x: number; y: number; startX: number; startY: number } | null
+  pinchStartDistance: number
+  pinchStartScale: number
+  isPinching: boolean
+  lastTouchEnd: number
+  controller: AbortController | null
+}
+
+const state = (window.__immersiveImageState ??= {
+  viewer: null,
+  activeImage: null,
+  scale: 1,
+  translateX: 0,
+  translateY: 0,
+  pointerDrag: null,
+  pinchStartDistance: 0,
+  pinchStartScale: 1,
+  isPinching: false,
+  lastTouchEnd: 0,
+  controller: null,
+} satisfies ImmersiveImageState)
 
 const clamp = (value: number, min: number, max: number) => Math.min(max, Math.max(min, value))
 
 function isOpen() {
-  return viewer?.root.classList.contains("active") ?? false
+  return state.viewer?.root.classList.contains("active") ?? false
 }
 
 function getImageTitle(img: HTMLImageElement) {
@@ -54,10 +71,16 @@ function isImmersiveTarget(img: Element): img is HTMLImageElement {
 }
 
 function ensureViewer() {
-  if (viewer) return viewer
+  if (state.viewer) {
+    if (!document.body.contains(state.viewer.root)) {
+      document.body.appendChild(state.viewer.root)
+    }
+    return state.viewer
+  }
 
   const root = document.createElement("div")
   root.className = "immersive-image-viewer"
+  root.dataset.persist = ""
   // Use `inert` instead of `aria-hidden` to avoid the browser warning
   // "Blocked aria-hidden on an element because its descendant retained focus"
   root.inert = true
@@ -102,27 +125,29 @@ function ensureViewer() {
   })
 
   stage.addEventListener("pointerdown", (event) => {
-    if (scale <= 1) return
-    pointerDrag = {
+    if (state.scale <= 1) return
+    state.pointerDrag = {
       x: event.clientX,
       y: event.clientY,
-      startX: translateX,
-      startY: translateY,
+      startX: state.translateX,
+      startY: state.translateY,
     }
     stage.setPointerCapture(event.pointerId)
   })
 
   stage.addEventListener("pointermove", (event) => {
-    if (!pointerDrag || scale <= 1) return
-    translateX = pointerDrag.startX + (event.clientX - pointerDrag.x)
-    translateY = pointerDrag.startY + (event.clientY - pointerDrag.y)
+    if (!state.pointerDrag || state.scale <= 1) return
+    state.translateX = state.pointerDrag.startX + (event.clientX - state.pointerDrag.x)
+    state.translateY = state.pointerDrag.startY + (event.clientY - state.pointerDrag.y)
     applyTransform()
   })
 
   const releasePointer = (event: PointerEvent) => {
-    if (!pointerDrag) return
-    pointerDrag = null
-    stage.releasePointerCapture(event.pointerId)
+    if (!state.pointerDrag) return
+    state.pointerDrag = null
+    if (stage.hasPointerCapture(event.pointerId)) {
+      stage.releasePointerCapture(event.pointerId)
+    }
   }
 
   stage.addEventListener("pointerup", releasePointer)
@@ -132,9 +157,9 @@ function ensureViewer() {
     "touchstart",
     (event) => {
       if (event.touches.length === 2) {
-        isPinching = true
-        pinchStartDistance = getTouchDistance(event.touches)
-        pinchStartScale = scale
+        state.isPinching = true
+        state.pinchStartDistance = getTouchDistance(event.touches)
+        state.pinchStartScale = state.scale
       }
     },
     { passive: true },
@@ -146,24 +171,24 @@ function ensureViewer() {
       if (event.touches.length === 2) {
         event.preventDefault()
         const nextDistance = getTouchDistance(event.touches)
-        const ratio = nextDistance / Math.max(pinchStartDistance, 1)
-        setScale(pinchStartScale * ratio)
+        const ratio = nextDistance / Math.max(state.pinchStartDistance, 1)
+        setScale(state.pinchStartScale * ratio)
         return
       }
 
-      if (event.touches.length === 1 && scale > 1) {
+      if (event.touches.length === 1 && state.scale > 1) {
         event.preventDefault()
         const touch = event.touches[0]
-        if (!pointerDrag) {
-          pointerDrag = {
+        if (!state.pointerDrag) {
+          state.pointerDrag = {
             x: touch.clientX,
             y: touch.clientY,
-            startX: translateX,
-            startY: translateY,
+            startX: state.translateX,
+            startY: state.translateY,
           }
         } else {
-          translateX = pointerDrag.startX + (touch.clientX - pointerDrag.x)
-          translateY = pointerDrag.startY + (touch.clientY - pointerDrag.y)
+          state.translateX = state.pointerDrag.startX + (touch.clientX - state.pointerDrag.x)
+          state.translateY = state.pointerDrag.startY + (touch.clientY - state.pointerDrag.y)
           applyTransform()
         }
       }
@@ -172,26 +197,26 @@ function ensureViewer() {
   )
 
   stage.addEventListener("touchend", (event) => {
-    pointerDrag = null
+    state.pointerDrag = null
 
     // If we were pinching and all fingers are now up, just clear the flag.
     // Do NOT count this as a tap — otherwise two rapid touchend events
     // from a simultaneous two-finger lift get misread as a double-tap,
     // resetting the zoom the user just performed.
-    if (isPinching) {
+    if (state.isPinching) {
       if (event.touches.length === 0) {
-        isPinching = false
+        state.isPinching = false
       }
-      lastTouchEnd = 0
+      state.lastTouchEnd = 0
       return
     }
 
     const now = Date.now()
-    if (now - lastTouchEnd < 260) {
+    if (now - state.lastTouchEnd < 260) {
       toggleZoom()
-      lastTouchEnd = 0
+      state.lastTouchEnd = 0
     } else {
-      lastTouchEnd = now
+      state.lastTouchEnd = now
     }
   })
 
@@ -203,8 +228,8 @@ function ensureViewer() {
     }
   })
 
-  viewer = { root, backdrop, topbar, title, close, stage, image }
-  return viewer
+  state.viewer = { root, backdrop, topbar, title, close, stage, image }
+  return state.viewer
 }
 
 function getTouchDistance(touches: TouchList) {
@@ -213,28 +238,28 @@ function getTouchDistance(touches: TouchList) {
 }
 
 function applyTransform() {
-  if (!viewer) return
-  viewer.image.style.transform = `translate3d(${translateX}px, ${translateY}px, 0) scale(${scale})`
+  if (!state.viewer) return
+  state.viewer.image.style.transform = `translate3d(${state.translateX}px, ${state.translateY}px, 0) scale(${state.scale})`
 }
 
 function resetTransform() {
-  scale = 1
-  translateX = 0
-  translateY = 0
+  state.scale = 1
+  state.translateX = 0
+  state.translateY = 0
   applyTransform()
 }
 
 function setScale(nextScale: number) {
-  scale = clamp(nextScale, 1, 5)
-  if (scale === 1) {
-    translateX = 0
-    translateY = 0
+  state.scale = clamp(nextScale, 1, 5)
+  if (state.scale === 1) {
+    state.translateX = 0
+    state.translateY = 0
   }
   applyTransform()
 }
 
 function toggleZoom() {
-  if (scale > 1) {
+  if (state.scale > 1) {
     resetTransform()
   } else {
     setScale(2.2)
@@ -243,7 +268,7 @@ function toggleZoom() {
 
 function openViewer(img: HTMLImageElement) {
   const els = ensureViewer()
-  activeImage = img
+  state.activeImage = img
   els.title.textContent = getImageTitle(img)
   els.image.src = img.currentSrc || img.src
   els.image.alt = img.alt || ""
@@ -254,11 +279,11 @@ function openViewer(img: HTMLImageElement) {
 }
 
 function closeViewer() {
-  if (!viewer) return
-  viewer.root.classList.remove("active")
-  viewer.root.inert = true
+  if (!state.viewer) return
+  state.viewer.root.classList.remove("active")
+  state.viewer.root.inert = true
   document.documentElement.classList.remove("immersive-image-open")
-  activeImage = null
+  state.activeImage = null
   resetTransform()
 }
 
@@ -280,17 +305,28 @@ function styleImages() {
  * it is immune to DOM-node replacement by micromorph during SPA navigation.
  */
 function onImageClick(event: MouseEvent) {
+  if (event.button !== 0 || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return
   const img = (event.target as Element)?.closest?.(IMAGE_SELECTOR)
   if (!img || !isImmersiveTarget(img)) return
 
   event.preventDefault()
+  event.stopPropagation()
   openViewer(img as HTMLImageElement)
 }
 
-// Register the delegated handler exactly once (survives SPA navigations)
-document.addEventListener("click", onImageClick)
+state.controller?.abort()
+state.controller = new AbortController()
 
-document.addEventListener("nav", () => {
-  closeViewer()
-  styleImages()
+document.addEventListener(
+  "nav",
+  () => {
+    closeViewer()
+    styleImages()
+  },
+  { signal: state.controller.signal },
+)
+
+document.addEventListener("click", onImageClick, {
+  capture: true,
+  signal: state.controller.signal,
 })
