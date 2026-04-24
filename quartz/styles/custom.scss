@@ -12,6 +12,7 @@
 .landing-page {
   max-width: 100%;
   padding-bottom: 3.5rem;
+  touch-action: pan-y;
   --landing-shell-wide: 1440px;
   --landing-shell-medium: 1160px;
   --landing-shell-narrow: 940px;
@@ -631,6 +632,7 @@
   .entry-card {
     transition: none;
     transform: none;
+    touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
   }
 
@@ -1001,11 +1003,15 @@ footer {
 
   .hero-visual {
     padding: 0 1.4rem 1.4rem;
+    min-height: 0;
   }
 
   .hero-visual img,
   .category-hero img {
-    min-height: 320px;
+    aspect-ratio: 4 / 5;
+    height: auto;
+    min-height: 0;
+    max-height: min(72svh, 520px);
   }
 
   .hero-notes {
@@ -1019,7 +1025,7 @@ footer {
     align-items: initial;
     border-radius: 18px;
     overflow: hidden;
-    contain: paint;
+    isolation: isolate;
   }
 
   .feature-step-index {
