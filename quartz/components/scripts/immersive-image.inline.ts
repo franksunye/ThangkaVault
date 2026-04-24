@@ -270,7 +270,7 @@ function openViewer(img: HTMLImageElement) {
   const els = ensureViewer()
   state.activeImage = img
   els.title.textContent = getImageTitle(img)
-  els.image.src = img.currentSrc || img.src
+  els.image.src = img.dataset.detailSrc || img.currentSrc || img.src
   els.image.alt = img.alt || ""
   resetTransform()
   els.root.classList.add("active")

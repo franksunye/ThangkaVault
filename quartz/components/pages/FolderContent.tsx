@@ -8,6 +8,7 @@ import { QuartzPluginData } from "../../plugins/vfile"
 import { ComponentChildren } from "preact"
 import { concatenateResources } from "../../util/resources"
 import { trieFromAllFiles } from "../../util/ctx"
+import { getResponsiveImageProps } from "../../util/imageVariants"
 
 interface FolderContentOptions {
   /**
@@ -38,6 +39,10 @@ interface CategoryLandingSection {
   items?: CategoryLandingItem[]
 }
 
+function ResponsiveImage({ src, alt, sizes }: { src: string; alt: string; sizes?: string }) {
+  return <img {...getResponsiveImageProps(src, sizes)} alt={alt} />
+}
+
 function renderCategoryLanding(
   fileData: QuartzComponentProps["fileData"],
   sections: CategoryLandingSection[],
@@ -59,7 +64,13 @@ function renderCategoryLanding(
             {pageTitle && <h1>{pageTitle}</h1>}
             {lead && <p class="lead">{lead}</p>}
           </div>
-          {image && <img src={image} alt={imageAlt ?? pageTitle ?? "Category cover"} />}
+          {image && (
+            <ResponsiveImage
+              src={image}
+              alt={imageAlt ?? pageTitle ?? "Category cover"}
+              sizes="(max-width: 800px) 100vw, 680px"
+            />
+          )}
         </section>
       )}
       {sections.map((section) => {
@@ -83,7 +94,13 @@ function renderCategoryLanding(
                 if (variant === "entry") {
                   return (
                     <a class="entry-card" href={item.href}>
-                      {item.image && <img src={item.image} alt={item.imageAlt ?? item.title ?? "Entry cover"} />}
+                      {item.image && (
+                        <ResponsiveImage
+                          src={item.image}
+                          alt={item.imageAlt ?? item.title ?? "Entry cover"}
+                          sizes="(max-width: 800px) 100vw, 520px"
+                        />
+                      )}
                       <div>
                         {item.title && <div class="card-title">{item.title}</div>}
                         {item.description && <div class="card-copy">{item.description}</div>}
@@ -137,7 +154,11 @@ function extractCategoryLanding(root: Root) {
       const nextNode = nextIndex !== -1 ? root.children[nextIndex] : undefined
       const style = sectionStyles[title]
 
-      if (style && isElement(nextNode) && (nextNode.tagName === "ol" || nextNode.tagName === "ul")) {
+      if (
+        style &&
+        isElement(nextNode) &&
+        (nextNode.tagName === "ol" || nextNode.tagName === "ul")
+      ) {
         sections.push({
           title,
           style,

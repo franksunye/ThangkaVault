@@ -16,6 +16,7 @@
     "dev": "npx quartz build --serve",
     "build": "npx quartz build",
     "docs": "npx quartz build --serve -d docs",
+    "images:generate": "tsx scripts/generate-image-variants.ts",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
