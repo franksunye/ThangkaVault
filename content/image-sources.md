@@ -78,9 +78,39 @@ description: ""
 ## mahakala-met-37808.jpg
 
 - 本地路径：`/static/images/protector/mahakala-met-37808.jpg`
-- 对应页面：待未来护法条目使用
+- 对应页面：[大黑天](./护法/mahakala.md)、[唐卡中的忿怒相是什么？](./符号/wrathful-deities-in-thangka.md)、[护法](./护法/index.md)
 - 标题：The Wrathful Protector Mahakala, Tantric Protective Form of Avalokiteshvara
 - 来源机构：The Metropolitan Museum of Art
 - 来源链接：https://www.metmuseum.org/art/collection/search/37808
 - 授权状态：Public Domain
-- 说明：已入库，后续可用于护法或忿怒相相关内容
+- 说明：适合作为护法和忿怒相主题的核心示例图
+
+## manjushri-met-37820.jpg
+
+- 本地路径：`/static/images/bodhisattva/manjushri-met-37820.jpg`
+- 对应页面：[文殊菩萨](./菩萨/manjushri.md)
+- 标题：Manjushri
+- 来源机构：The Metropolitan Museum of Art
+- 来源链接：https://www.metmuseum.org/art/collection/search/37820
+- 授权状态：Public Domain
+- 说明：适合作为智慧、经书、持物识别相关内容的示例图
+
+## manjushri-manuscript-cover-met-38423.jpg
+
+- 本地路径：`/static/images/bodhisattva/manjushri-manuscript-cover-met-38423.jpg`
+- 对应页面：[剑与经书在唐卡中象征什么？](./符号/sword-and-book-symbolism.md)
+- 标题：Manuscript Cover with the Bodhisattva Manjushri Flanked by Vajrapani and Avalokiteshvara
+- 来源机构：The Metropolitan Museum of Art
+- 来源链接：https://www.metmuseum.org/art/collection/search/38423
+- 授权状态：Public Domain
+- 说明：馆方说明明确提到文殊以剑破除无明，适合作为智慧之剑的图像证据
+
+## amitabha-western-pure-land-met-72419.jpg
+
+- 本地路径：`/static/images/buddha/amitabha-western-pure-land-met-72419.jpg`
+- 对应页面：[阿弥陀佛](./佛像/amitabha-buddha.md)、[净土场景怎么看？](./符号/offering-and-paradise-scene.md)
+- 标题：Amitabha, the Buddha of the Western Pure Land (Sukhavati)
+- 来源机构：The Metropolitan Museum of Art
+- 来源链接：https://www.metmuseum.org/art/collection/search/72419
+- 授权状态：Public Domain
+- 说明：适合作为净土场景、供养结构和复杂画面阅读的示例图

@@ -31,6 +31,27 @@ cssclasses:
       <div class="card-copy">绿色和前伸的姿态让她充满行动感，也最容易让人留下记忆。</div>
     </div>
   </a>
+  <a class="entry-card" href="/菩萨/white-tara">
+    <img src="/static/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg" alt="白度母唐卡" />
+    <div>
+      <div class="card-title">白度母</div>
+      <div class="card-copy">从白色、端坐和安定感入手，理解慈悲与长寿如何被画出来。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/菩萨/green-tara-and-white-tara">
+    <img src="/static/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg" alt="绿度母与白度母唐卡" />
+    <div>
+      <div class="card-title">绿度母与白度母有什么不同？</div>
+      <div class="card-copy">用同一幅图比较颜色、姿态和气质，建立更稳定的识别方法。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/菩萨/manjushri">
+    <img src="/static/images/bodhisattva/manjushri-met-37820.jpg" alt="文殊菩萨唐卡" />
+    <div>
+      <div class="card-title">文殊菩萨</div>
+      <div class="card-copy">从剑、经书和莲花等符号入手，理解智慧如何被画成可见形象。</div>
+    </div>
+  </a>
 </div>
 
 ## 观看提示

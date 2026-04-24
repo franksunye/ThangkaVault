@@ -31,6 +31,13 @@ cssclasses:
       <div class="card-copy">深蓝色身相非常醒目，适合帮助初学者开始理解颜色的意义。</div>
     </div>
   </a>
+  <a class="entry-card" href="/佛像/amitabha-buddha">
+    <img src="/static/images/buddha/amitabha-western-pure-land-met-72419.jpg" alt="阿弥陀佛净土唐卡" />
+    <div>
+      <div class="card-title">阿弥陀佛</div>
+      <div class="card-copy">从中央主尊扩展到净土场景，练习阅读一整幅有秩序的佛国世界。</div>
+    </div>
+  </a>
 </div>
 
 ## 观看提示

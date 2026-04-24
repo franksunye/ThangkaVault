@@ -115,6 +115,10 @@ cssclasses:
     <strong>符号</strong>
     <span>先抓住手印、颜色和莲花这些高频线索。</span>
   </a>
+  <a class="theme-card" href="/护法/">
+    <strong>护法</strong>
+    <span>从忿怒相、火焰和强烈姿态理解保护性图像。</span>
+  </a>
 </div>
 
 </section>
@@ -177,6 +181,30 @@ cssclasses:
       <div class="entry-meta">曼荼罗 · 空间结构</div>
       <div class="card-title">什么是曼荼罗？</div>
       <div class="card-copy">当你开始看结构而不只是看人物，唐卡会立刻变得更有秩序。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/护法/mahakala">
+    <img src="/static/images/protector/mahakala-met-37808.jpg" alt="大黑天唐卡" />
+    <div>
+      <div class="entry-meta">护法 · 忿怒相</div>
+      <div class="card-title">大黑天</div>
+      <div class="card-copy">从强烈表情、火焰和姿态入手，理解护法图像中的保护力量。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/菩萨/manjushri">
+    <img src="/static/images/bodhisattva/manjushri-met-37820.jpg" alt="文殊菩萨唐卡" />
+    <div>
+      <div class="entry-meta">菩萨 · 智慧主题</div>
+      <div class="card-title">文殊菩萨</div>
+      <div class="card-copy">剑、经书和莲花让抽象的智慧变得可识别，适合作为持物阅读的入口。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/佛像/amitabha-buddha">
+    <img src="/static/images/buddha/amitabha-western-pure-land-met-72419.jpg" alt="阿弥陀佛净土唐卡" />
+    <div>
+      <div class="entry-meta">佛像 · 净土场景</div>
+      <div class="card-title">阿弥陀佛</div>
+      <div class="card-copy">从中央主尊进入整幅净土世界，练习阅读复杂场景中的秩序。</div>
     </div>
   </a>
 </div>

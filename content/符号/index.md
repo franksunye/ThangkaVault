@@ -38,6 +38,34 @@ cssclasses:
       <div class="card-copy">从一个高频器物切入，开始理解“为什么是这样画”。</div>
     </div>
   </a>
+  <a class="entry-card" href="/符号/varada-mudra">
+    <img src="/static/images/bodhisattva/white-tara-and-green-tara-met-60053029.jpg" alt="施愿印示例唐卡" />
+    <div>
+      <div class="card-title">施愿印是什么？</div>
+      <div class="card-copy">从手掌方向和给予动作入手，理解度母图像中的回应与护佑。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/符号/wrathful-deities-in-thangka">
+    <img src="/static/images/protector/mahakala-met-37808.jpg" alt="忿怒相示例唐卡" />
+    <div>
+      <div class="card-title">唐卡中的忿怒相是什么？</div>
+      <div class="card-copy">强烈表情和火焰不是单纯可怕，而是在表达保护与降伏障碍。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/符号/sword-and-book-symbolism">
+    <img src="/static/images/bodhisattva/manjushri-manuscript-cover-met-38423.jpg" alt="剑与经书象征示例" />
+    <div>
+      <div class="card-title">剑与经书在唐卡中象征什么？</div>
+      <div class="card-copy">用文殊菩萨的持物理解智慧、辨明和破除无明的视觉表达。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/符号/offering-and-paradise-scene">
+    <img src="/static/images/buddha/amitabha-western-pure-land-met-72419.jpg" alt="净土场景示例唐卡" />
+    <div>
+      <div class="card-title">净土场景怎么看？</div>
+      <div class="card-copy">从中央主尊、供养、莲池和楼阁进入整幅画的空间结构。</div>
+    </div>
+  </a>
 </div>
 
 ## 观看提示
