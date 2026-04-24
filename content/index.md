@@ -192,7 +192,7 @@ cssclasses:
     </div>
   </a>
   <a class="entry-card" href="/菩萨/manjushri">
-    <img src="/static/images/bodhisattva/manjushri-met-37820.jpg" alt="文殊菩萨唐卡" />
+    <img src="/static/images/bodhisattva/manjushri-situ-panchen-commons.jpg" alt="文殊菩萨唐卡" />
     <div>
       <div class="entry-meta">菩萨 · 智慧主题</div>
       <div class="card-title">文殊菩萨</div>

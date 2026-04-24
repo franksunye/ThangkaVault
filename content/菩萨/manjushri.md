@@ -6,7 +6,7 @@ description: "文殊菩萨象征智慧，常通过剑、经书、莲花等视觉
 ## 文殊菩萨
 ### Manjushri
 
-![文殊菩萨唐卡](/static/images/bodhisattva/manjushri-met-37820.jpg)
+![文殊菩萨唐卡](/static/images/bodhisattva/manjushri-situ-panchen-commons.jpg)
 
 > **一句话理解：**
 > 文殊菩萨象征智慧，常通过剑、经书、莲花等视觉元素表现破除无明与开启理解。
@@ -25,7 +25,7 @@ description: "文殊菩萨象征智慧，常通过剑、经书、莲花等视觉
 
 文殊菩萨是唐卡中非常重要的智慧象征。和观音菩萨偏向慈悲、度母偏向救度不同，文殊菩萨最容易从“智慧”这条线进入。
 
-很多文殊形象会通过经书、莲花或宝剑来表达智慧。经书代表教法与理解，宝剑则常被理解为破除无明和迷惑的力量。
+很多文殊形象会通过经书、莲花或宝剑来表达智慧。经书代表教法与理解，宝剑则常被理解为破除无明和迷惑的力量。这幅图里，文殊身旁的莲花上立着一柄带火焰的剑，正适合作为初学者识别文殊的入口。
 
 ---
 
@@ -35,8 +35,9 @@ description: "文殊菩萨象征智慧，常通过剑、经书、莲花等视觉
 
 - 是否出现经书或书卷
 - 是否有莲花承托经书
-- 是否持剑，或画面中暗示智慧之剑
+- 是否有剑，常见为莲花上立剑或举起的智慧之剑
 - 气质通常清明、专注，和智慧主题相关
+- 身体常呈黄色、橙色或金色系，强调智慧的明亮感
 
 ---
 
@@ -68,6 +69,6 @@ description: "文殊菩萨象征智慧，常通过剑、经书、莲花等视觉
 
 ## 来源说明
 
-- 图片来源：The Metropolitan Museum of Art，《Manjushri》，Object ID 37820（Public Domain）
-- 原始链接：[查看原始来源](https://www.metmuseum.org/art/collection/search/37820)
+- 图片来源：Wikimedia Commons，《Situ Panchen. Manjushri. From Painting Set of Eight Great Bodhisattvas (Palpung) 18th century Rubin Museum of Art》（Public Domain）
+- 原始链接：[查看原始来源](https://commons.wikimedia.org/wiki/File:Situ_Panchen._Manjushri._From_Painting_Set_of_Eight_Great_Bodhisattvas_(Palpung)_18th_century_Rubin_Museum_of_Art.jpg)
 - 内容整理：唐卡知库（ThangkaVault）

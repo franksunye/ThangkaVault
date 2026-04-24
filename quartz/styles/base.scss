@@ -562,6 +562,11 @@ img {
   content-visibility: auto;
 }
 
+.center article > p > img {
+  width: 100%;
+  height: auto;
+}
+
 p > img + em {
   display: block;
   transform: translateY(-1rem);

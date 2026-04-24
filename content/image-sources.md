@@ -88,12 +88,32 @@ description: ""
 ## manjushri-met-37820.jpg
 
 - 本地路径：`/static/images/bodhisattva/manjushri-met-37820.jpg`
-- 对应页面：[文殊菩萨](./菩萨/manjushri.md)
+- 对应页面：已保留为备用文殊图像
 - 标题：Manjushri
 - 来源机构：The Metropolitan Museum of Art
 - 来源链接：https://www.metmuseum.org/art/collection/search/37820
 - 授权状态：Public Domain
 - 说明：适合作为智慧、经书、持物识别相关内容的示例图
+
+## manjushri-thangka-artic-130679.jpg
+
+- 本地路径：`/static/images/bodhisattva/manjushri-thangka-artic-130679.jpg`
+- 对应页面：已保留为备用文殊图像
+- 标题：Painted Banner (Thangka) of Bodhisattva Manjushri with Vajrapani (right) and Padmapani (left)
+- 来源机构：Art Institute of Chicago
+- 来源链接：https://www.artic.edu/artworks/130679/painted-banner-thangka-of-bodhisattva-manjushri-with-vajrapani-right-and-padmapani-left
+- 授权状态：CC0 Public Domain Designation
+- 说明：彩色、高分辨率，且明确为西藏古格地区文殊菩萨唐卡，适合作为文殊主条目配图
+
+## manjushri-situ-panchen-commons.jpg
+
+- 本地路径：`/static/images/bodhisattva/manjushri-situ-panchen-commons.jpg`
+- 对应页面：[文殊菩萨](./菩萨/manjushri.md)
+- 标题：Situ Panchen. Manjushri. From Painting Set of Eight Great Bodhisattvas (Palpung) 18th century Rubin Museum of Art
+- 来源机构：Wikimedia Commons / Rubin Museum of Art
+- 来源链接：https://commons.wikimedia.org/wiki/File:Situ_Panchen._Manjushri._From_Painting_Set_of_Eight_Great_Bodhisattvas_(Palpung)_18th_century_Rubin_Museum_of_Art.jpg
+- 授权状态：Public Domain
+- 说明：橙黄色身相与莲花上立剑都很清楚，更适合作为文殊菩萨入门主图
 
 ## manjushri-manuscript-cover-met-38423.jpg
 
@@ -113,4 +133,4 @@ description: ""
 - 来源机构：The Metropolitan Museum of Art
 - 来源链接：https://www.metmuseum.org/art/collection/search/72419
 - 授权状态：Public Domain
-- 说明：适合作为净土场景、供养结构和复杂画面阅读的示例图
+- 说明：适合作为净土场景、供养结构和复杂画面阅读的示例图；本地文件使用 Wikimedia Commons 保存的同一 Met Public Domain 图像高分辨率副本
