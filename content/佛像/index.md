@@ -38,6 +38,13 @@ cssclasses:
       <div class="card-copy">从中央主尊扩展到净土场景，练习阅读一整幅有秩序的佛国世界。</div>
     </div>
   </a>
+  <a class="entry-card" href="/佛像/amitayus">
+    <img src="/static/images/buddha/amitayus-one-hundred-buddhas-artic-49262.jpg" alt="无量寿佛唐卡" />
+    <div>
+      <div class="card-title">无量寿佛</div>
+      <div class="card-copy">从长寿、宝瓶和红色身相入手，理解佛像中的生命延续主题。</div>
+    </div>
+  </a>
 </div>
 
 ## 观看提示

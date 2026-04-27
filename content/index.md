@@ -230,6 +230,22 @@ cssclasses:
       <div class="card-copy">从剑、经书、莲花、钵和宝瓶入手，把器物转化成可读的线索。</div>
     </div>
   </a>
+  <a class="entry-card" href="/菩萨/maitreya-bodhisattva">
+    <img src="/static/images/bodhisattva/maitreya-bodhisattva-artic-144918.jpg" alt="弥勒菩萨唐卡" />
+    <div>
+      <div class="entry-meta">菩萨 · 未来佛</div>
+      <div class="card-title">弥勒菩萨</div>
+      <div class="card-copy">从未来、等待和安定姿态进入佛教图像里的时间感。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/佛像/amitayus">
+    <img src="/static/images/buddha/amitayus-one-hundred-buddhas-artic-49262.jpg" alt="无量寿佛唐卡" />
+    <div>
+      <div class="entry-meta">佛像 · 长寿主题</div>
+      <div class="card-title">无量寿佛</div>
+      <div class="card-copy">长寿、宝瓶和红色身相，让“生命延续”成为可见的图像线索。</div>
+    </div>
+  </a>
 </div>
 
 </section>

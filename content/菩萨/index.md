@@ -52,6 +52,27 @@ cssclasses:
       <div class="card-copy">从剑、经书和莲花等符号入手，理解智慧如何被画成可见形象。</div>
     </div>
   </a>
+  <a class="entry-card" href="/菩萨/maitreya-bodhisattva">
+    <img src="/static/images/bodhisattva/maitreya-bodhisattva-artic-144918.jpg" alt="弥勒菩萨唐卡" />
+    <div>
+      <div class="card-title">弥勒菩萨</div>
+      <div class="card-copy">从未来佛、等待和安定姿态入手，理解佛教图像中的未来感。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/菩萨/vajrasattva">
+    <img src="/static/images/bodhisattva/vajrasattva-mandala-artic-103305.jpg" alt="金刚萨埵唐卡" />
+    <div>
+      <div class="card-title">金刚萨埵</div>
+      <div class="card-copy">用金刚杵、铃和明净气质，进入清净与金刚乘修持主题。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/菩萨/vajrapani">
+    <img src="/static/images/bodhisattva/vajrapani-mandala-commons.jpg" alt="金刚手菩萨唐卡" />
+    <div>
+      <div class="card-title">金刚手菩萨</div>
+      <div class="card-copy">从力量、护持和金刚杵入手，看到菩萨形象中更有力量的一面。</div>
+    </div>
+  </a>
 </div>
 
 ## 观看提示

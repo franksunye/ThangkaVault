@@ -134,3 +134,43 @@ description: ""
 - 来源链接：https://www.metmuseum.org/art/collection/search/72419
 - 授权状态：Public Domain
 - 说明：适合作为净土场景、供养结构和复杂画面阅读的示例图；本地文件使用 Wikimedia Commons 保存的同一 Met Public Domain 图像高分辨率副本
+
+## maitreya-bodhisattva-artic-144918.jpg
+
+- 本地路径：`/static/images/bodhisattva/maitreya-bodhisattva-artic-144918.jpg`
+- 对应页面：[弥勒菩萨](./菩萨/maitreya-bodhisattva.md)
+- 标题：Painted Banner (Thangka) of Bodhisattva Maitreya Surrounded by his Retinue
+- 来源机构：Art Institute of Chicago
+- 来源链接：https://www.artic.edu/artworks/144918/painted-banner-thangka-of-bodhisattva-maitreya-surrounded-by-his-retinue
+- 授权状态：CC0 Public Domain Designation
+- 说明：适合作为未来佛、菩萨眷属和主尊识别相关内容的示例图
+
+## vajrasattva-mandala-artic-103305.jpg
+
+- 本地路径：`/static/images/bodhisattva/vajrasattva-mandala-artic-103305.jpg`
+- 对应页面：[金刚萨埵](./菩萨/vajrasattva.md)
+- 标题：Painted Banner (Thangka) of Vajrasattva Mandala
+- 来源机构：Art Institute of Chicago
+- 来源链接：https://www.artic.edu/artworks/103305/painted-banner-thangka-of-vajrasattva-mandala
+- 授权状态：CC0 Public Domain Designation
+- 说明：适合作为金刚萨埵、金刚杵与曼荼罗结构相关内容的示例图
+
+## vajrapani-mandala-commons.jpg
+
+- 本地路径：`/static/images/bodhisattva/vajrapani-mandala-commons.jpg`
+- 对应页面：[金刚手菩萨](./菩萨/vajrapani.md)
+- 标题：Vajrapani mandala
+- 来源机构：Wikimedia Commons / Chester Beatty Library
+- 来源链接：https://commons.wikimedia.org/wiki/File:Vajrapani_mandala.jpg
+- 授权状态：Public Domain Mark
+- 说明：高分辨率，适合作为金刚手菩萨、金刚杵和护持力量相关内容的示例图
+
+## amitayus-one-hundred-buddhas-artic-49262.jpg
+
+- 本地路径：`/static/images/buddha/amitayus-one-hundred-buddhas-artic-49262.jpg`
+- 对应页面：[无量寿佛](./佛像/amitayus.md)
+- 标题：Painted Banner (Thangka) of Amitayus Buddha Surrounded by One Hundred Buddhas
+- 来源机构：Art Institute of Chicago
+- 来源链接：https://www.artic.edu/artworks/49262/painted-banner-thangka-of-amitayus-buddha-surrounded-by-one-hundred-buddhas
+- 授权状态：CC0 Public Domain Designation
+- 说明：适合作为长寿、宝瓶和无量寿佛主题的示例图
