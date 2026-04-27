@@ -66,6 +66,34 @@ cssclasses:
       <div class="card-copy">从中央主尊、供养、莲池和楼阁进入整幅画的空间结构。</div>
     </div>
   </a>
+  <a class="entry-card" href="/符号/attendants-and-offering-figures">
+    <img src="/static/images/buddha/amitabha-western-pure-land-met-72419.jpg" alt="主尊眷属和供养者示例唐卡" />
+    <div>
+      <div class="card-title">主尊、眷属和供养者怎么看？</div>
+      <div class="card-copy">先分清人物关系，复杂唐卡会从“很多人”变成一个有中心的世界。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/符号/halo-flame-and-clouds">
+    <img src="/static/images/protector/mahakala-met-37808.jpg" alt="光背火焰和祥云示例唐卡" />
+    <div>
+      <div class="card-title">光背、火焰和祥云怎么看？</div>
+      <div class="card-copy">人物周围的光、火、云不是背景填充，而是在表达状态和气氛。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/符号/postures-in-thangka">
+    <img src="/static/images/bodhisattva/green-tara-photo-dharma-commons.jpg" alt="唐卡坐姿和姿态示例" />
+    <div>
+      <div class="card-title">唐卡中的坐姿和姿态怎么看？</div>
+      <div class="card-copy">从端坐、前伸和行动感入手，理解主尊的状态如何被身体语言表达。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/符号/ritual-objects-in-thangka">
+    <img src="/static/images/bodhisattva/manjushri-situ-panchen-commons.jpg" alt="唐卡持物示例" />
+    <div>
+      <div class="card-title">唐卡中的持物怎么看？</div>
+      <div class="card-copy">持物常常是识别身份和理解主题的关键，不能只当作装饰。</div>
+    </div>
+  </a>
 </div>
 
 ## 观看提示

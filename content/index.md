@@ -75,8 +75,15 @@ cssclasses:
       <p>先认出主尊，再看动作、颜色和周围符号，复杂感会立刻下降。</p>
     </div>
   </a>
-  <a class="feature-step" href="/曼荼罗/what-is-mandala">
+  <a class="feature-step" href="/基础知识/how-to-identify-main-deity">
     <div class="feature-step-index">03</div>
+    <div class="feature-step-body">
+      <div class="feature-step-title">如何找到唐卡中的主尊？</div>
+      <p>先确定画面中心，再看眷属、供养和空间结构。</p>
+    </div>
+  </a>
+  <a class="feature-step" href="/曼荼罗/what-is-mandala">
+    <div class="feature-step-index">04</div>
     <div class="feature-step-body">
       <div class="feature-step-title">什么是曼荼罗？</div>
       <p>从中心、边界和对称结构入手，开始理解唐卡里的空间秩序。</p>
@@ -205,6 +212,22 @@ cssclasses:
       <div class="entry-meta">佛像 · 净土场景</div>
       <div class="card-title">阿弥陀佛</div>
       <div class="card-copy">从中央主尊进入整幅净土世界，练习阅读复杂场景中的秩序。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/基础知识/how-to-identify-main-deity">
+    <img src="/static/images/buddha/amitabha-western-pure-land-met-72419.jpg" alt="主尊识别示例唐卡" />
+    <div>
+      <div class="entry-meta">基础知识 · 观看方法</div>
+      <div class="card-title">如何找到唐卡中的主尊？</div>
+      <div class="card-copy">复杂唐卡先看中心，主尊确定后，周围人物和空间关系才会清楚。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/符号/ritual-objects-in-thangka">
+    <img src="/static/images/bodhisattva/manjushri-situ-panchen-commons.jpg" alt="唐卡持物示例" />
+    <div>
+      <div class="entry-meta">符号 · 持物识别</div>
+      <div class="card-title">唐卡中的持物怎么看？</div>
+      <div class="card-copy">从剑、经书、莲花、钵和宝瓶入手，把器物转化成可读的线索。</div>
     </div>
   </a>
 </div>

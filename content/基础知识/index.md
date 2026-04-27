@@ -22,7 +22,11 @@ categoryCoverAlt: "基础知识分类封面"
 
    建立最实用的阅读顺序：先认出主尊，再理解动作和周围元素。
 
-3. [什么是曼荼罗？](/曼荼罗/what-is-mandala)
+3. [如何找到唐卡中的主尊？](/基础知识/how-to-identify-main-deity)
+
+   先确认画面的中心，复杂人物和空间关系会立刻变得清楚。
+
+4. [什么是曼荼罗？](/曼荼罗/what-is-mandala)
 
    从结构和空间入手，理解唐卡不只是在画人物。
 
@@ -39,6 +43,10 @@ categoryCoverAlt: "基础知识分类封面"
 - [唐卡中的忿怒相是什么？](/符号/wrathful-deities-in-thangka)
 
   遇到强烈、威严的护法形象时，先理解它表达的是保护与降伏障碍。
+
+- [如何区分佛、菩萨和护法？](/基础知识/buddha-bodhisattva-protector-differences)
+
+  先分清大类，再进入具体主尊名称，识别会更稳定。
 
 ## 这部分的价值
 
