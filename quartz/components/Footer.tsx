@@ -13,7 +13,7 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <p>
           ThangkaVault © {year} · 高质量图像与入门型唐卡知识整理
-          <span class="site-version">v1.0</span>
+          <span class="site-version">v1.1</span>
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (

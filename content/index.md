@@ -173,7 +173,7 @@ cssclasses:
   <a class="entry-card" href="/佛像/medicine-buddha">
     <img src="/static/images/buddha/medicine-buddha-artic-commons.jpg" alt="药师佛唐卡" />
     <div>
-      <div class="entry-meta">佛像 · 色彩识别</div>
+      <div class="entry-meta">v1.1 样板页 · 色彩识别</div>
       <div class="card-title">药师佛</div>
       <div class="card-copy">深蓝色身相非常醒目，也最能帮助初学者意识到颜色的意义。</div>
     </div>
@@ -181,7 +181,7 @@ cssclasses:
   <a class="entry-card" href="/符号/what-is-a-mudra">
     <img src="/static/images/buddha/shakyamuni-lord-of-the-munis-met-75274.jpg" alt="手印示例唐卡" />
     <div>
-      <div class="entry-meta">符号 · 动作语言</div>
+      <div class="entry-meta">v1.1 样板页 · 动作语言</div>
       <div class="card-title">唐卡中的手印是什么？</div>
       <div class="card-copy">手印是最快让你读出“这位主尊正在做什么”的视觉入口。</div>
     </div>
@@ -205,7 +205,7 @@ cssclasses:
   <a class="entry-card" href="/菩萨/manjushri">
     <img src="/static/images/bodhisattva/manjushri-situ-panchen-commons.jpg" alt="文殊菩萨唐卡" />
     <div>
-      <div class="entry-meta">菩萨 · 智慧主题</div>
+      <div class="entry-meta">v1.1 样板页 · 智慧主题</div>
       <div class="card-title">文殊菩萨</div>
       <div class="card-copy">剑、经书和莲花让抽象的智慧变得可识别，适合作为持物阅读的入口。</div>
     </div>
@@ -213,7 +213,7 @@ cssclasses:
   <a class="entry-card" href="/佛像/amitabha-buddha">
     <img src="/static/images/buddha/amitabha-western-pure-land-met-72419.jpg" alt="阿弥陀佛净土唐卡" />
     <div>
-      <div class="entry-meta">佛像 · 净土场景</div>
+      <div class="entry-meta">v1.1 样板页 · 净土场景</div>
       <div class="card-title">阿弥陀佛</div>
       <div class="card-copy">从中央主尊进入整幅净土世界，练习阅读复杂场景中的秩序。</div>
     </div>
@@ -293,7 +293,7 @@ cssclasses:
   <a class="entry-card" href="/符号/mandala-directions">
     <img src="/static/images/mandala/hevajra-mandala-met-37803.jpg" alt="坛城方位示例" />
     <div>
-      <div class="entry-meta">符号 · 空间语法</div>
+      <div class="entry-meta">v1.1 样板页 · 空间语法</div>
       <div class="card-title">坛城方位怎么看？</div>
       <div class="card-copy">从中心、四方、门和边界入手，把曼荼罗从复杂图案读成空间秩序。</div>
     </div>
