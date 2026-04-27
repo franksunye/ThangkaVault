@@ -174,3 +174,83 @@ description: ""
 - 来源链接：https://www.artic.edu/artworks/49262/painted-banner-thangka-of-amitayus-buddha-surrounded-by-one-hundred-buddhas
 - 授权状态：CC0 Public Domain Designation
 - 说明：适合作为长寿、宝瓶和无量寿佛主题的示例图
+
+## five-jina-buddhas-diadem-lacma.jpg
+
+- 本地路径：`/static/images/buddha/five-jina-buddhas-diadem-lacma.jpg`
+- 对应页面：[五方佛总览](./佛像/five-tathagatas.md)
+- 标题：Ritual Diadem with the Five Jina Buddhas: Amitabha, Vairochana, Akshobhya, Ratnasambhava, and Amoghasiddhi
+- 来源机构：Wikimedia Commons / Los Angeles County Museum of Art
+- 来源链接：https://commons.wikimedia.org/wiki/File:Ritual_Diadem_with_the_Five_Jina_Buddhas-_Amitabha,_Vairochana,_Akshobhya,_Ratnasambhava,_and_Amoghasiddhi_LACMA_M.74.139.15.jpg
+- 授权状态：Public Domain
+- 说明：适合作为五方佛整体体系、五佛并列和方位结构的入门示例图
+
+## vairocana-google-art-project.jpg
+
+- 本地路径：`/static/images/buddha/vairocana-google-art-project.jpg`
+- 对应页面：[毗卢遮那佛](./佛像/vairocana-buddha.md)
+- 标题：Buddha Vairocana
+- 来源机构：Wikimedia Commons / Rubin Museum of Art / Google Art Project
+- 来源链接：https://commons.wikimedia.org/wiki/File:Buddha_Vairocana_-_Google_Art_Project.jpg
+- 授权状态：Public Domain Mark
+- 说明：高分辨率，适合作为毗卢遮那佛、中央主尊和五方佛中心位的示例图
+
+## akshobhya-honolulu-commons.jpg
+
+- 本地路径：`/static/images/buddha/akshobhya-honolulu-commons.jpg`
+- 对应页面：[阿閦佛](./佛像/akshobhya-buddha.md)
+- 标题：The Dhyani Buddha Akshobhya
+- 来源机构：Wikimedia Commons / Honolulu Academy of Arts
+- 来源链接：https://commons.wikimedia.org/wiki/File:%27The_Dhyani_Buddha_Akshobhya%27,_Tibetan_thangka,_late_13th_century,_Honolulu_Academy_of_Arts.jpg
+- 授权状态：Public Domain Mark
+- 说明：适合作为阿閦佛、东方佛和触地印相关内容的示例图
+
+## ratnasambhava-rubin-google-art-project.jpg
+
+- 本地路径：`/static/images/buddha/ratnasambhava-rubin-google-art-project.jpg`
+- 对应页面：[宝生佛](./佛像/ratnasambhava-buddha.md)
+- 标题：Buddha Ratnasambhava with Wealth Deities
+- 来源机构：Wikimedia Commons / Rubin Museum of Art / Google Art Project
+- 来源链接：https://commons.wikimedia.org/wiki/File:Buddha_Ratnasambhava_with_Wealth_Deities_-_Google_Art_Project.jpg
+- 授权状态：Public Domain Mark
+- 说明：适合作为宝生佛、财富神祇和丰足主题的示例图
+
+## amoghasiddhi-asian-art-museum-commons.jpg
+
+- 本地路径：`/static/images/buddha/amoghasiddhi-asian-art-museum-commons.jpg`
+- 对应页面：[不空成就佛](./佛像/amoghasiddhi-buddha.md)
+- 标题：Tibetan Amoghasiddhi Buddha
+- 来源机构：Wikimedia Commons / Asian Art Museum San Francisco
+- 来源链接：https://commons.wikimedia.org/wiki/File:Tibetan_Amoghasiddhi_Buddha.jpg
+- 授权状态：CC BY-SA 3.0
+- 说明：适合作为不空成就佛、绿色佛像和行动成就主题的辅助示例图
+
+## shadakshari-avalokiteshvara-smithsonian.jpg
+
+- 本地路径：`/static/images/bodhisattva/shadakshari-avalokiteshvara-smithsonian.jpg`
+- 对应页面：[四臂观音](./菩萨/four-armed-avalokiteshvara.md)
+- 标题：Shadakshari Avalokiteshvara, from a four-part set of thangkas
+- 来源机构：Smithsonian National Museum of Asian Art
+- 来源链接：https://asia.si.edu/education/educator-resources/encountering-religion-in-asian-art/explore-by-object/object/shadakshari-avalokiteshvara-from-a-four-part-set-of-thangkas/
+- 授权状态：Smithsonian Terms of Use
+- 说明：高分辨率 IIIF 图像，适合作为四臂观音、六字观音和慈悲持物主题的示例图
+
+## padmasambhava-artic-34310.jpg
+
+- 本地路径：`/static/images/master/padmasambhava-artic-34310.jpg`
+- 对应页面：[莲花生大士](./祖师/padmasambhava.md)
+- 标题：Painted Banner (Thangka) of Sage Guru Padmasambhava Seated Holding a Thunderbolt (Vajra) and Skull Cup (Kapala)
+- 来源机构：Art Institute of Chicago
+- 来源链接：https://www.artic.edu/artworks/34310/painted-banner-thangka-of-sage-guru-padmasambhava-seated-holding-a-thunderbolt-vajra-and-skull-cup-kapala
+- 授权状态：CC0 Public Domain Designation
+- 说明：适合作为祖师像、莲花生大士、金刚杵和颅器相关内容的示例图
+
+## yellow-jambhala-sichuan-commons.jpg
+
+- 本地路径：`/static/images/protector/yellow-jambhala-sichuan-commons.jpg`
+- 对应页面：[黄财神](./护法/yellow-jambhala.md)
+- 标题：Yellow Jambhala, 1644-1911 AD, thangka
+- 来源机构：Wikimedia Commons / Sichuan University Museum
+- 来源链接：https://commons.wikimedia.org/wiki/File:Yellow_Jambhala,_1644-1911_AD,_thangka_-_Sichuan_University_Museum_-_Chengdu,_China_-_DSC06199.jpg
+- 授权状态：CC0 / Public Domain Mark
+- 说明：高分辨率，适合作为黄财神、财富主题和宝物识别的示例图

@@ -126,6 +126,10 @@ cssclasses:
     <strong>护法</strong>
     <span>从忿怒相、火焰和强烈姿态理解保护性图像。</span>
   </a>
+  <a class="theme-card" href="/祖师/">
+    <strong>祖师</strong>
+    <span>从上师、传承和持物理解藏传唐卡中的人物像。</span>
+  </a>
 </div>
 
 </section>
@@ -244,6 +248,54 @@ cssclasses:
       <div class="entry-meta">佛像 · 长寿主题</div>
       <div class="card-title">无量寿佛</div>
       <div class="card-copy">长寿、宝瓶和红色身相，让“生命延续”成为可见的图像线索。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/佛像/five-tathagatas">
+    <img src="/static/images/buddha/five-jina-buddhas-diadem-lacma.jpg" alt="五方佛总览图像" />
+    <div>
+      <div class="entry-meta">佛像 · 系统骨架</div>
+      <div class="card-title">五方佛总览</div>
+      <div class="card-copy">把颜色、方位、手印和主尊关系连起来，进入更系统的唐卡阅读。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/菩萨/four-armed-avalokiteshvara">
+    <img src="/static/images/bodhisattva/shadakshari-avalokiteshvara-smithsonian.jpg" alt="四臂观音唐卡" />
+    <div>
+      <div class="entry-meta">菩萨 · 观音体系</div>
+      <div class="card-title">四臂观音</div>
+      <div class="card-copy">四臂、合掌、莲花和念珠，让慈悲主题变得非常容易识别。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/祖师/padmasambhava">
+    <img src="/static/images/master/padmasambhava-artic-34310.jpg" alt="莲花生大士唐卡" />
+    <div>
+      <div class="entry-meta">祖师 · 传承人物</div>
+      <div class="card-title">莲花生大士</div>
+      <div class="card-copy">从莲花帽、金刚杵和颅器入手，理解祖师像和佛菩萨像的差异。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/护法/yellow-jambhala">
+    <img src="/static/images/protector/yellow-jambhala-sichuan-commons.jpg" alt="黄财神唐卡" />
+    <div>
+      <div class="entry-meta">护法 · 财富主题</div>
+      <div class="card-title">黄财神</div>
+      <div class="card-copy">从宝物、丰足和护持入手，理解财富主题在唐卡中的图像语言。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/符号/halo-and-aureole">
+    <img src="/static/images/buddha/vairocana-google-art-project.jpg" alt="背光和身光示例唐卡" />
+    <div>
+      <div class="entry-meta">符号 · 图像语法</div>
+      <div class="card-title">背光和身光怎么看？</div>
+      <div class="card-copy">人物身后的光背常常直接说明中心性、庄严感和神圣身份。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/符号/mandala-directions">
+    <img src="/static/images/mandala/hevajra-mandala-met-37803.jpg" alt="坛城方位示例" />
+    <div>
+      <div class="entry-meta">符号 · 空间语法</div>
+      <div class="card-title">坛城方位怎么看？</div>
+      <div class="card-copy">从中心、四方、门和边界入手，把曼荼罗从复杂图案读成空间秩序。</div>
     </div>
   </a>
 </div>

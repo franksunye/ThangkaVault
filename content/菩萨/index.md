@@ -73,6 +73,13 @@ cssclasses:
       <div class="card-copy">从力量、护持和金刚杵入手，看到菩萨形象中更有力量的一面。</div>
     </div>
   </a>
+  <a class="entry-card" href="/菩萨/four-armed-avalokiteshvara">
+    <img src="/static/images/bodhisattva/shadakshari-avalokiteshvara-smithsonian.jpg" alt="四臂观音唐卡" />
+    <div>
+      <div class="card-title">四臂观音</div>
+      <div class="card-copy">从四臂、合掌、莲花和念珠入手，理解观音慈悲形象的标准线索。</div>
+    </div>
+  </a>
 </div>
 
 ## 观看提示

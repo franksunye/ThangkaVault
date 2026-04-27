@@ -8,6 +8,19 @@ footer {
     line-height: 1.8;
   }
 
+  & .site-version {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 0.65rem;
+    padding: 0.08rem 0.45rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 999px;
+    color: var(--gray);
+    font-size: 0.72rem;
+    line-height: 1.4;
+    vertical-align: 0.08rem;
+  }
+
   & ul {
     list-style: none;
     margin: 0.85rem 0 0;

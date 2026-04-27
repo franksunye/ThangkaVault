@@ -45,6 +45,41 @@ cssclasses:
       <div class="card-copy">从长寿、宝瓶和红色身相入手，理解佛像中的生命延续主题。</div>
     </div>
   </a>
+  <a class="entry-card" href="/佛像/five-tathagatas">
+    <img src="/static/images/buddha/five-jina-buddhas-diadem-lacma.jpg" alt="五方佛冠饰" />
+    <div>
+      <div class="card-title">五方佛总览</div>
+      <div class="card-copy">把颜色、方位、手印和曼荼罗结构连成一套可读的佛像系统。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/佛像/vairocana-buddha">
+    <img src="/static/images/buddha/vairocana-google-art-project.jpg" alt="毗卢遮那佛唐卡" />
+    <div>
+      <div class="card-title">毗卢遮那佛</div>
+      <div class="card-copy">从中央、白色和法界主题入手，理解五方佛体系的中心位。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/佛像/akshobhya-buddha">
+    <img src="/static/images/buddha/akshobhya-honolulu-commons.jpg" alt="阿閦佛唐卡" />
+    <div>
+      <div class="card-title">阿閦佛</div>
+      <div class="card-copy">从东方、蓝色和触地印入手，理解“不动”的佛像线索。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/佛像/ratnasambhava-buddha">
+    <img src="/static/images/buddha/ratnasambhava-rubin-google-art-project.jpg" alt="宝生佛唐卡" />
+    <div>
+      <div class="card-title">宝生佛</div>
+      <div class="card-copy">从黄色、宝物和施予主题入手，理解丰足与平等的象征。</div>
+    </div>
+  </a>
+  <a class="entry-card" href="/佛像/amoghasiddhi-buddha">
+    <img src="/static/images/buddha/amoghasiddhi-asian-art-museum-commons.jpg" alt="不空成就佛图像" />
+    <div>
+      <div class="card-title">不空成就佛</div>
+      <div class="card-copy">从绿色、北方和无畏行动入手，理解成就主题的佛像表达。</div>
+    </div>
+  </a>
 </div>
 
 ## 观看提示

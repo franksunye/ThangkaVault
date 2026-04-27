@@ -24,6 +24,13 @@ cssclasses:
       <div class="card-copy">从火焰、忿怒表情和强烈姿态开始，理解护法图像为什么看起来如此有力量。</div>
     </div>
   </a>
+  <a class="entry-card" href="/护法/yellow-jambhala">
+    <img src="/static/images/protector/yellow-jambhala-sichuan-commons.jpg" alt="黄财神唐卡" />
+    <div>
+      <div class="card-title">黄财神</div>
+      <div class="card-copy">从黄色身相、宝物和吐宝鼠入手，理解财富与丰足的护持性图像。</div>
+    </div>
+  </a>
 </div>
 
 ## 观看提示

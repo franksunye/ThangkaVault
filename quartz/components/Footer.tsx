@@ -11,7 +11,10 @@ export default ((opts?: Options) => {
     const links = opts?.links ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <p>ThangkaVault © {year} · 高质量图像与入门型唐卡知识整理</p>
+        <p>
+          ThangkaVault © {year} · 高质量图像与入门型唐卡知识整理
+          <span class="site-version">v1.0</span>
+        </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
